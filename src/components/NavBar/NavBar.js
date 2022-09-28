@@ -1,30 +1,34 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
-import './NavBar.css'
+import React from 'react';
+import { Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnLink } from './Styled.js';
 
 const sections = [
     {title: 'Hello', link: '/InternshipReport'},
     {title: 'World', link: '/InternshipReport/Remerciement'},
 ];
 
-function NavBar() {
-    return (
-        <>
-            <nav className='nav'>
-                <Link to='/InternshipReport' className='link'>Test1</Link>
-                <div className='menu'>
-                    {sections.map((section) => (
-                        <Link key={section.link} to={section.link} className='link'>
-                            {section.title}
-                        </Link>
-                    ))}
-                </div>
-                <nav className='button'>
-                    <Link to='/Signing' className='link_button'>Signing</Link>
-                </nav>
-            </nav>
-        </>
-    )
-}
+const Navbar = () => {
+  return (
+    <main>
+      <Nav>
+        <NavLink to='/'>
+          <img src={require('../../assets/logo.svg')} alt='logo' />
+        </NavLink>
+        <Bars />
+        <NavMenu>
+            {sections.map((section) => (
+                <NavLink to={section.link} activeStyle>
+                    {section.title}
+                </NavLink>
+            ))}
+          {/* Second Nav */}
+          {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
+        </NavMenu>
+        <NavBtn>
+          <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+        </NavBtn>
+      </Nav>
+    </main>
+  );
+};
 
-export default NavBar;
+export default Navbar;
