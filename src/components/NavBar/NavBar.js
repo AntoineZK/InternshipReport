@@ -2,19 +2,28 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import './NavBar.css'
 
+const sections = [
+    {title: 'Hello', link: '/InternshipReport'},
+    {title: 'World', link: '/InternshipReport/Remerciement'},
+];
+
 function NavBar() {
     return (
-        <nav className="nav">
-            <Link to="/" className="site-title">Site Name</Link>
-            <ul>
-                <li>
-                    <Link to="/InternshipReport" className='section'>Pricing</Link>
-                </li>
-                <li>
-                    <Link to="/InternshipReport/Remerciement" className='section'>About</Link>
-                </li>
-            </ul>
-        </nav>
+        <>
+            <nav className='nav'>
+                <Link to='/InternshipReport' className='link'>Test1</Link>
+                <div className='menu'>
+                    {sections.map((section) => (
+                        <Link key={section.link} to={section.link} className='link'>
+                            {section.title}
+                        </Link>
+                    ))}
+                </div>
+                <nav className='button'>
+                    <Link to='/Signing' className='link_button'>Signing</Link>
+                </nav>
+            </nav>
+        </>
     )
 }
 
