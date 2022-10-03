@@ -2,11 +2,7 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/NavBar/NavBar';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './pages/home';
-import About from './pages/about';
-import Services from './pages/services';
-import Contact from './pages/contact';
-import SignUp from './pages/signup';
+import { Home, Remerciements, Plan, Introduction, Développement, Conclusion } from './pages/Pages'
 
 function App() {
   	return (
@@ -15,10 +11,11 @@ function App() {
 			<Navbar />
 			<Routes>
 				<Route path='/InternshipReport' element={<Home/>} />
-				<Route path='/InternshipReport/about' element={<About/>} />
-				<Route path='/InternshipReport/services' element={<Services/>} />
-				<Route path='/InternshipReport/contact-us' element={<Contact/>} />
-				<Route path='/InternshipReport/sign-up' element={<SignUp/>} />
+				<Route path='/InternshipReport/Plan' element={<Plan/>} />
+				<Route path='/InternshipReport/Remerciements' element={<Remerciements/>} />
+				<Route path='/InternshipReport/Introduction' element={<Introduction/>} />
+				<Route path='/InternshipReport/Développement' element={<Développement/>} />
+				<Route path='/InternshipReport/Conclusion' element={<Conclusion/>} />
 			</Routes>
 		</div>
 		</Router>

@@ -1,11 +1,12 @@
 import React from 'react';
-import { Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnLink } from './Styles';
+import { Nav, NavLink, Bars, NavMenu, /*NavBtn, NavBtnLink*/ } from './Styles';
 
 const sections = [
-  {title: 'About', link: '/InternshipReport/about'},
-  {title: 'Services', link: '/InternshipReport/services'},
-  {title: 'Contact Us', link: '/InternshipReport/contact-us'},
-  {title: 'Sign Up', link: '/InternshipReport/sign-up'},
+  {title: 'Plan', link: '/InternshipReport/Plan'},
+  {title: 'Remerciements', link: '/InternshipReport/Remerciements'},
+  {title: 'Introduction', link: '/InternshipReport/Introduction'},
+  {title: 'Développement', link: '/InternshipReport/Développement'},
+  {title: 'Conclusion', link: '/InternshipReport/Conclusion'},
 ];
 
 function Navbar() {
@@ -13,7 +14,7 @@ function Navbar() {
 		<main>
 			<Nav>
 				<NavLink to='/InternshipReport'>
-					<img src={require('../../assets/logo.svg')} alt='logo' />
+					<img src={require('../../assets/logo.svg')} alt='InternshipReport' />
 				</NavLink>
 				<Bars />
 				<NavMenu>
@@ -23,9 +24,6 @@ function Navbar() {
 						</NavLink>
 					))}
 				</NavMenu>
-				<NavBtn>
-				<NavBtnLink to='/signin'>Sign In</NavBtnLink>
-				</NavBtn>
 			</Nav>
 		</main>
 	)
