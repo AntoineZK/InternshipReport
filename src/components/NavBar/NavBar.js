@@ -9,14 +9,14 @@ const sections = [
   {title: 'Conclusion', link: '/InternshipReport/Conclusion'},
 ];
 
-function Navbar() {
+function Navbar({ toggle }) {
 	return (
 		<main>
 			<Nav>
 				<NavLink to='/InternshipReport'>
 					<img src={require('../../assets/logo.svg')} alt='InternshipReport' />
 				</NavLink>
-				<Bars />
+				<Bars onClick={toggle}/>
 				<NavMenu>
 					{sections.map((section) => (
 						<NavLink key={section.link} to={section.link}>
