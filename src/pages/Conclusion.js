@@ -10,7 +10,7 @@ const Conclusion = () => {
         height: '90vh'
       }}
     >
-      <h1>Conclusion</h1>
+			<a href="/pwc.png" download><strong>Download my Resume!</strong></a>
     </div>
   )
 }
