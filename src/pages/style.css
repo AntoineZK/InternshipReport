@@ -1,3 +1,11 @@
-.display-linebreak {
-    white-space: pre-line;
+.display-image {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+}
+
+.center-text {
+    text-align: center;
 }
