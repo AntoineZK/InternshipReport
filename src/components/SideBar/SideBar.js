@@ -20,7 +20,7 @@ const SideBar = ({ isOpen, toggle }) => {
                 <SideBarMenu>
                     {sections.map((section) => (
                     <SideBarLink key={section.link} to={section.link}>
-                    {section.title}
+                        {section.title}
                     </SideBarLink>
                     ))}
                 </SideBarMenu>

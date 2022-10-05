@@ -33,10 +33,6 @@ const Home = () => {
                     color: 'blue'
                 }} to='/InternshipReport/Remerciements'>Next Page</Link>
             </div>
-            <div className='bottom_page'>
-                <img src={PwC_Logo} alt="PwC_Logo" width={150} height={150}/>
-                <img src={Tek_Logo} alt="Tek_Logo" width={150} height={150}/>
-            </div>
         </div>
 	);
 };
