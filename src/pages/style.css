@@ -9,3 +9,26 @@
 .center-text {
     text-align: center;
 }
+
+.internship-location_master {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.center-link {
+    margin-top: 5%;
+    text-decoration: none;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.bottom_page {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-top: 10vh;
+}

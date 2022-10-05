@@ -1,12 +1,12 @@
 import React from 'react';
-import { Nav, NavLink, Bars, NavMenu, /*NavBtn, NavBtnLink*/ } from './Styles';
+import { Nav, NavLink, Bars, NavMenu } from './Styles';
 
 const sections = [
-  {title: 'Plan', link: '/InternshipReport/Plan'},
-  {title: 'Remerciements', link: '/InternshipReport/Remerciements'},
-  {title: 'Introduction', link: '/InternshipReport/Introduction'},
-  {title: 'Développement', link: '/InternshipReport/Développement'},
-  {title: 'Conclusion', link: '/InternshipReport/Conclusion'},
+	{title: 'Remerciements', link: '/InternshipReport/Remerciements'},
+	{title: 'Plan', link: '/InternshipReport/Plan'},
+	{title: 'Introduction', link: '/InternshipReport/Introduction'},
+	{title: 'Développement', link: '/InternshipReport/Développement'},
+	{title: 'Conclusion', link: '/InternshipReport/Conclusion'},
 ];
 
 function Navbar({ toggle }) {
