@@ -1,0 +1,44 @@
+.nav {
+    background: #000;
+    height: 80px;
+	z-index: 10000;
+	display: flex;
+    justify-content: space-between;
+	padding: 25px 0;
+}
+
+.link {
+    color: #fff;
+	display: flex;
+	text-decoration: none;
+	padding: 0 1rem;
+}
+
+.link.active {
+    color: #15cdfc;
+}
+
+.nav-menu {
+	display: flex;
+}
+
+.bars {
+    display: none;
+	color: #fff;
+}
+
+@media screen and (max-width: 799px) {
+    .bars {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 75%);
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+
+    .link {
+        display: none;
+    }
+}

@@ -1,5 +1,7 @@
 import React from 'react';
-import { Nav, NavLink, Bars, NavMenu } from './Styles';
+import { FaBars } from 'react-icons/fa';
+import { NavLink as Link } from 'react-router-dom';
+import './style.css'
 
 const sections = [
 	{title: 'Remerciements', link: '/InternshipReport/Remerciements'},
@@ -12,19 +14,19 @@ const sections = [
 function Navbar({ toggle }) {
 	return (
 		<main>
-			<Nav>
-				<NavLink to='/InternshipReport'>
-					<img src={require('../../assets/logo.svg')} alt='InternshipReport' />
-				</NavLink>
-				<Bars onClick={toggle}/>
-				<NavMenu>
+			<nav className='nav'>
+				<Link className='link' to='/InternshipReport'>
+					InternshipReport
+				</Link>
+				<FaBars className='bars' onClick={toggle}/>
+				<div className='nav-menu'>
 					{sections.map((section) => (
-						<NavLink key={section.link} to={section.link}>
-							{section.title}
-						</NavLink>
+					<Link className='link' to={section.link}>
+						{section.title}
+					</Link>
 					))}
-				</NavMenu>
-			</Nav>
+				</div>
+			</nav>
 		</main>
 	)
 }
