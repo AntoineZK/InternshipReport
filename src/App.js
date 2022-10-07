@@ -1,24 +1,15 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/NavBar/NavBar';
-import SideBar from './components/SideBar/SideBar';
 import Footer from './components/Footer/Footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Home, Remerciements, Plan, Introduction, Développement, Conclusion } from './pages/Pages'
 
 function App() {
-	const [isOpen, setIsOpen] = React.useState(false);
-
-
-	const toggle = () => {
-		setIsOpen(!isOpen);
-	};
-
   	return (
     	<Router>
       	<div>
-			<SideBar isOpen={isOpen} toggle={toggle}/>
-			<Navbar toggle={toggle}/>
+			<Navbar />
 			<Routes>
 				<Route path='/InternshipReport' element={<Home/>} />
 				<Route path='/InternshipReport/Plan' element={<Plan/>} />
