@@ -6,12 +6,16 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Home, Remerciements, Plan, Introduction, Développement, Conclusion } from './pages/Pages'
 
 function App() {
-  	return (
+	const [click, setClick] = React.useState(false);
+	const handleClick = () => setClick(!click);
+	const closeMobileMenu = () => setClick(false);
+
+	return (
     	<Router>
       	<div>
-			<Navbar />
+			<Navbar handleClick={handleClick} closeMobileMenu={closeMobileMenu} click={click} />
 			<Routes>
-				<Route path='/InternshipReport' element={<Home/>} />
+				<Route path='/InternshipReport' element={<Home closeMobileMenu={closeMobileMenu} />} />
 				<Route path='/InternshipReport/Plan' element={<Plan/>} />
 				<Route path='/InternshipReport/Remerciements' element={<Remerciements/>} />
 				<Route path='/InternshipReport/Introduction' element={<Introduction/>} />

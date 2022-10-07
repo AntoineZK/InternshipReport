@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Navbar.css';
 import { NavLink as Link } from 'react-router-dom';
-import './style.css'
 
 const sections = [
 	{title: 'Remerciements', link: '/InternshipReport/Remerciements'},
@@ -11,16 +10,11 @@ const sections = [
 	{title: 'Conclusion', link: '/InternshipReport/Conclusion'},
 ];
 
-function Navbar() {
-	const [click, setClick] = useState(false);
-	
-	const handleClick = () => setClick(!click);
-	const closeMobileMenu = () => setClick(false);
-
+function Navbar({ handleClick, closeMobileMenu, click }) {
 	return (
 		<main>
 			<nav className='navbar'>
-				<Link to='/InternshipReport' className='navbar-logo' onClick={closeMobileMenu}>
+				<Link to='/InternshipReport' className='link' onClick={closeMobileMenu}>
 					InternshipReport
 					<i className='fab fa-firstdraft' />
 				</Link>
@@ -42,3 +36,5 @@ function Navbar() {
 }
 
 export default Navbar;
+
+

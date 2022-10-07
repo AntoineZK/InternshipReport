@@ -4,7 +4,7 @@ import PwC_Logo from '../assets/pwc.png'
 import Tek_Logo from '../assets/tek.png'
 import './style.css'
 
-const Home = () => {
+const Home = ({ closeMobileMenu }) => {
 	return (
         <div>
             <h1 className='center-text' style={{
@@ -31,7 +31,7 @@ const Home = () => {
                 <Link style={{
                     textDecoration: 'none',
                     color: 'blue'
-                }} to='/InternshipReport/Remerciements'>Next Page</Link>
+                }} to='/InternshipReport/Remerciements' onClick={closeMobileMenu}>Next Page</Link>
             </div>
         </div>
 	);
