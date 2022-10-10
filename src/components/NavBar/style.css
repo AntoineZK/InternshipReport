@@ -1,4 +1,4 @@
-.nav {
+.navbar {
     background: #000;
     height: 80px;
 	z-index: 10000;
@@ -9,36 +9,101 @@
 
 .link {
     color: #fff;
-	display: flex;
-	text-decoration: none;
-	padding: 0 1rem;
+    display: flex;
+    text-decoration: none;
+    padding: 0 1rem;
 }
 
 .link.active {
     color: #15cdfc;
 }
 
-.nav-menu {
-	display: flex;
+.fa-firstdraft {
+    margin-left: 0.5rem;
+    font-size: 1.6rem;
 }
 
-.bars {
+.menu-icon {
     display: none;
-	color: #fff;
 }
 
-@media screen and (max-width: 799px) {
-    .bars {
+.fa-bars {
+  color: #fff;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+}
+  
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+  
+.nav-links {
+    color: white;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+  
+.nav-links:hover {
+    color: green;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+  
+@media screen and (max-width: 960px){
+    .nav-menu {
+        display: flow-root;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        /* transition: all 0.1s ease; */
+    }
+  
+    .nav-menu.active {
+        background: #242222;
+        left: 0;
+        /* transition: all 0.1s ease; */
+        z-index: 1;
+    }
+  
+    .nav-links {
+        text-align: center;
+        padding: 2rem;
+        height: 100%;
+        width: 100%;
+    }
+  
+    .nav-links:hover {
+        background-color: #1888ff;
+        color: red;
+        border-radius: 0;
+    }
+  
+    .menu-icon {
         display: block;
         position: absolute;
         top: 0;
         right: 0;
-        transform: translate(-100%, 75%);
+        transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
     }
-
-    .link {
-        display: none;
+  
+    .fa-times {
+        color: #fff;
+        font-size: 2rem;
     }
 }
+  
