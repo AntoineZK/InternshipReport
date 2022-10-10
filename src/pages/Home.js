@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import PwC_Logo from '../assets/pwc.png'
 import Tek_Logo from '../assets/tek.png'
-import './style.css'
+import './Style.css'
 
 const Home = ({ closeMobileMenu }) => {
 	return (

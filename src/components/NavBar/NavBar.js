@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import './Style.css';
 import { NavLink as Link } from 'react-router-dom';
 
 const sections = [

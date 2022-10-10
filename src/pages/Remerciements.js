@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css'
+import './Style.css'
 
 // const manager = 
 // `Je tiens à remercier particulièrement mon manager,

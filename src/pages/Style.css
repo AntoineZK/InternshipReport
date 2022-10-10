@@ -24,23 +24,8 @@
     text-align: center;
 }
 
-.p-manager {
-    margin-top: 12vh;
-    text-align: center;
-    font-size: large;    
-    white-space: pre;
-}
-
-.p-teams {
-    margin-top: 12vh;
-    text-align: center;
-    font-size: large;    
-    white-space: pre;
-}
-
-.p-epitech {
-    margin-top: 12vh;
-    text-align: center;
-    font-size: large;    
-    white-space: pre;
+p-manager {
+    color: rebeccapurple;
+    display: flex;
+    justify-content: center;
 }
