@@ -1,0 +1,31 @@
+.display-image {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.internship-location_master {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.center-link {
+    margin-top: 5%;
+    text-decoration: none;
+    font-size: xx-large;
+    text-align: center;
+}
+
+p-manager {
+    color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+}
