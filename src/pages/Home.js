@@ -7,11 +7,9 @@ import './Style.css'
 const Home = ({ closeMobileMenu }) => {
 	return (
         <div>
-            <h1 className='center-text' style={{
-                color: 'orange',
-                marginTop: '15vh',
-                fontSize: 45
-                }}>Rapport de stage</h1>
+            <h1 className='center-text' style={{color: 'orange', marginTop: '15vh', fontSize: 45}}>
+                Rapport de stage
+            </h1>
             <div className='display-image'>
                 <img src={PwC_Logo} alt="PwC_Logo" width={400}/>
             </div>
@@ -27,11 +25,12 @@ const Home = ({ closeMobileMenu }) => {
                 <h3>Maître de stage : Éric François</h3>
                 <h3>Entreprise : PWC Luxembourg</h3>
             </div>
-            <div className='center-link'>
-                <Link style={{
-                    textDecoration: 'none',
-                    color: 'blue'
-                }} to='/InternshipReport/Remerciements' onClick={closeMobileMenu}>Next Page</Link>
+            <div className='two-link'>
+                <i className="fa-solid fa-angle-left fa-3x" style={{color: 'grey'}}></i>
+                <i className="fa-solid fa-ellipsis-vertical fa-3x" style={{color: 'blue'}}></i>
+                <Link style={{color: 'blue'}} to='/InternshipReport/Remerciements' onClick={closeMobileMenu}>
+                    <i className="fa-solid fa-angle-right fa-3x"></i>
+                </Link>
             </div>
         </div>
 	);

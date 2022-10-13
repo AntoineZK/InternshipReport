@@ -2,7 +2,7 @@
     background: #000;
     height: 80px;
 	z-index: 10000;
-	display: flex;
+    display: flex;
     justify-content: space-between;
 	padding: 25px 0;
 }
@@ -33,17 +33,16 @@
 
 .nav-menu {
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(6, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    width: 70vw;
     justify-content: end;
     margin-right: 2rem;
 }
   
 .nav-item {
-    display: flex;
+    position: relative;
     align-items: center;
 }
   
@@ -54,6 +53,25 @@
 }
   
 .nav-links:hover {
+    color: green;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+.dropdown {
+    position: absolute;
+    width: 200px;
+    padding: 20px;
+}
+
+.nav-links-dropdown {
+    color: white;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+  
+.nav-links-dropdown:hover {
+    display: initial;
     color: green;
     border-radius: 4px;
     transition: all 0.2s ease-out;
@@ -106,4 +124,3 @@
         font-size: 2rem;
     }
 }
-  

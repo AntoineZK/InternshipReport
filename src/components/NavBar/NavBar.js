@@ -29,6 +29,24 @@ function Navbar({ handleClick, closeMobileMenu, click }) {
 							</Link>
 						</li>
 					))}
+					<li className='nav-item-dropdown'>
+						<Link className='nav-links-dropdown' to='/InternshipReport/' onClick={closeMobileMenu}>
+							Teams
+							<i className='fab fa-firstdraft' />
+							<ul className='dropdown'>
+								<li>
+									<Link className='nav-links' to='/InternshipReport/Conclusion' onClick={closeMobileMenu}>
+										Datamining
+									</Link>
+								</li>
+								<li>
+									<Link className='nav-links' to='/InternshipReport/Conclusion' onClick={closeMobileMenu}>
+										Datamining
+									</Link>
+								</li>
+							</ul>
+						</Link>
+					</li>
 				</ul>
 			</nav>
 		</main>
@@ -36,5 +54,3 @@ function Navbar({ handleClick, closeMobileMenu, click }) {
 }
 
 export default Navbar;
-
-

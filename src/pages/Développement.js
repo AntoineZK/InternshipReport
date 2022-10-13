@@ -1,18 +1,14 @@
 import React from 'react';
 
 const Développement = () => {
-  return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '90vh'
-      }}
-    >
-      <h1>Développement</h1>
-    </div>
-  );
+    return (
+        <div>
+
+            <div id='#anchortag'>
+                <p>Linked to here</p>
+            </div>
+        </div>
+    );
 };
 
 export default Développement;

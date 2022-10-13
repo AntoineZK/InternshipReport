@@ -24,8 +24,20 @@
     text-align: center;
 }
 
-p-manager {
-    color: rebeccapurple;
+.two-link {
     display: flex;
+    justify-content: space-between;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-bottom: 2%;
+    margin-top: 10vh;
+}
+
+.thanks-text {
+    margin-top: 10vh;
+    display: flex;
+    font-size: 1.2em;
+    white-space: pre-wrap;
     justify-content: center;
+    text-align: center;
 }
