@@ -58,7 +58,7 @@ p {
 }
 
 /* Giving a background-color to the nav container. */
-nav { 
+.navbar { 
 	margin:0;
 	padding: 0;
 	background-color: #254441;
@@ -75,7 +75,7 @@ nav {
 /* Since we'll have the "ul li" "float:left"
  * we need to add a clear after the container. */
 
-nav:after {
+.navbar:after {
 	content:"";
 	display:table;
 	clear:both;
@@ -83,7 +83,7 @@ nav:after {
 
 /* Removing padding, margin and "list-style" from the "ul",
  * and adding "position:reltive" */
-nav ul {
+.sections-list {
 	float: right;
 	padding:0;
 	margin:0;
@@ -92,7 +92,7 @@ nav ul {
 	}
 	
 /* Positioning the navigation items inline */
-nav ul li {
+.section {
 	margin: 0px;
 	display:inline-block;
 	float: left;
@@ -100,7 +100,7 @@ nav ul li {
 	}
 
 /* Styling the links */
-nav a {
+.links {
 	display:block;
 	padding:14px 20px;	
 	color:#FFF;
@@ -108,12 +108,9 @@ nav a {
 	text-decoration:none;
 }
 
-
-nav ul li ul li:hover { background: #000000; }
-
 /* Background color change on Hover */
-nav a:hover { 
-	background-color: #000000; 
+.links:hover { 
+	color: blue;
 }
 
 /* Hide Dropdowns by Default
@@ -137,18 +134,6 @@ nav ul ul li {
 	display:list-item;
 	position: relative;
 }
-
-/* Second, Third and more Tiers	
- * We move the 2nd and 3rd etc tier dropdowns to the left
- * by the amount of the width of the first tier.
-*/
-nav ul ul ul li {
-	position: relative;
-	top:-60px;
-	/* has to be the same number as the "width" of "nav ul ul li" */ 
-	left:170px; 
-}
-
 	
 /* Change ' +' in order to change the Dropdown symbol */
 li > a:after { content:  ' +'; }
@@ -168,14 +153,14 @@ li > a:only-child:after { content: ''; }
 		float: none;
 	}
 
-	nav {
+	.navbar {
 		margin: 0;
 	}
 
 	/* Hide the navigation menu by default */
 	/* Also hide the  */
 	.toggle + a,
-	.menu {
+	.sections-list {
 		display: none;
 	}
 
