@@ -19,7 +19,7 @@ qualité de leur enseignement qui a grandement contribué au bon déroulement de
 const Remerciements = ({ closeMobileMenu }) => {
     return (
         <div>
-            <h1 className='center-text' style={{color: 'orange', marginTop: '15vh', fontSize: 45}}>
+            <h1 className='title'>
                 Remerciements
             </h1>
             <p className='thanks-text'>{manager}</p>

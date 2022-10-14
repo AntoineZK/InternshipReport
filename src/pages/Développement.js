@@ -1,12 +1,10 @@
 import React from 'react';
+import './Style.css'
 
 const Développement = () => {
     return (
-        <div>
-
-            <div id='#anchortag'>
-                <p>Linked to here</p>
-            </div>
+        <div className='title'>
+            <h1>Développement</h1>
         </div>
     );
 };

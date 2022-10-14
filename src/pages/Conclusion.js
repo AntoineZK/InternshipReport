@@ -1,18 +1,13 @@
 import React from 'react'
+import './Style.css'
 
 const Conclusion = () => {
-  return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '90vh'
-      }}
-    >
-			<a href="/pwc.png" download><strong>Download my Resume!</strong></a>
-    </div>
-  )
+    return (
+        <div className='title'>
+            <h1>Conclusion</h1>
+			<a href="/pwc.png" download>Download my Resume!</a>
+        </div>
+    );
 }
 
 export default Conclusion

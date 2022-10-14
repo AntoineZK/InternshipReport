@@ -1,18 +1,12 @@
 import React from 'react';
+import './Style.css'
 
 const Introduction = () => {
-  return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '90vh'
-      }}
-    >
-      <h1>Introduction</h1>
-    </div>
-  );
+    return (
+        <div className='title'>
+            <h1>Introduction</h1>
+        </div>
+    );
 };
 
 export default Introduction;

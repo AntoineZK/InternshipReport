@@ -6,6 +6,13 @@
     margin-bottom: 12vh;
 }
 
+.title {
+    text-align: center;
+    color: orange;
+    margin-top: 15vh;
+    font-size: 45;
+}
+
 .center-text {
     text-align: center;
 }
@@ -40,4 +47,44 @@
     white-space: pre-wrap;
     justify-content: center;
     text-align: center;
+}
+
+.display-team {
+    display: none;
+}
+
+.display-team.active {
+    display: auto;
+}
+
+.display-team2 {
+    display: none;
+}
+
+.display-team2.active {
+    display: auto;
+}
+
+
+
+.summary_1 {
+    text-decoration: none;
+    color: black;
+}
+
+.summary_1:hover {
+    color: red;
+}
+
+.summary_2 {
+    text-decoration: none;
+    color: darkgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.summary_3 {
+    text-decoration: none;
+    color: brown;
 }

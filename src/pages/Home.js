@@ -7,7 +7,7 @@ import './Style.css'
 const Home = ({ closeMobileMenu }) => {
 	return (
         <div>
-            <h1 className='center-text' style={{color: 'orange', marginTop: '15vh', fontSize: 45}}>
+            <h1 className='title'>
                 Rapport de stage
             </h1>
             <div className='display-image'>
