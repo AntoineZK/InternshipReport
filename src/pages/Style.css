@@ -10,7 +10,7 @@
     text-align: center;
     color: orange;
     margin-top: 15vh;
-    font-size: 45;
+    font-size: 55px;
 }
 
 .center-text {
@@ -57,16 +57,6 @@
     display: auto;
 }
 
-.display-team2 {
-    display: none;
-}
-
-.display-team2.active {
-    display: auto;
-}
-
-
-
 .summary_1 {
     text-decoration: none;
     color: black;
@@ -76,15 +66,11 @@
     color: red;
 }
 
+.fa-arrow-right {
+    margin-right: 5vh;
+}
+
 .summary_2 {
     text-decoration: none;
     color: darkgreen;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.summary_3 {
-    text-decoration: none;
-    color: brown;
 }

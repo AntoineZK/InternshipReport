@@ -30,31 +30,31 @@ function Section({ closeMobileMenu }) {
     const [click2, setClick2] = React.useState(false);
 	const handleClick2 = () => setClick2(!click2);
     return (
-        <ul style={{textAlign: 'center'}}>
+        <ul style={{textAlign: 'center', marginTop: '7vh'}}>
             {plan.map((value, index) => (
                 <li style={{marginBottom: '3vh'}}>
                     <Link className='summary_1' key={index} to={value.link} onClick={closeMobileMenu}>{value.name}</Link>
                 </li>
             ))}
             <li style={{marginBottom: '3vh'}} onClick={handleClick}>
-                L'Equipe DataMining
+                <Link className='summary_1' to='/InternshipReport/Plan'>L'Equipe DataMining</Link>
                 <ul className={click > 0 ? 'display-team.active' : 'display-team'}>
                     {team_section.map((value, index) => (
                         <li>
                             <Link className='summary_2' key={index} to={value.link} onClick={closeMobileMenu}>
-                                <i className="fa-solid fa-arrow-right"></i>    {value.name}
+                                <i className="fa-solid fa-arrow-right"></i>{value.name}
                             </Link>
                         </li>
                     ))}
                 </ul>
             </li>
             <li  style={{marginBottom: '3vh'}} onClick={handleClick2}>
-                L'Equipe DataServices
+                <Link className='summary_1' to='/InternshipReport/Plan'>L'Equipe Services</Link>
                 <ul className={click2 ? 'display-team.active' : 'display-team'}>
                     {team_section.map((value, index) => (
                         <li>
-                            <Link className='summary_3' key={index} to={value.link} onClick={closeMobileMenu}>
-                                <i className="fa-solid fa-arrow-right"></i>    {value.name}
+                            <Link className='summary_2' key={index} to={value.link} onClick={closeMobileMenu}>
+                                <i className="fa-solid fa-arrow-right"></i>{value.name}
                             </Link>
                         </li>
                     ))}
@@ -70,7 +70,7 @@ function Section({ closeMobileMenu }) {
 const Plan = ({ closeMobileMenu }) => {
     return (
         <div>
-            <h1 className='title' style={{marginBottom: '7vh'}}>
+            <h1 className='title'>
                 Sommaire
             </h1>
             <Section closeMobileMenu={closeMobileMenu} />
