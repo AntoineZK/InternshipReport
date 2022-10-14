@@ -1,43 +1,78 @@
-import React from 'react'
+import React, { useState } from 'react';
 import { NavLink as Link } from 'react-router-dom';
-import './Style.css'
+import './Style.css';
+import DropDown from './DropDown/DropDown';
 
-// const sections = [
-// 	{title: 'Remerciements', link: '/InternshipReport/Remerciements'},
-// 	{title: 'Plan', link: '/InternshipReport/Plan'},
-// 	{title: 'Introduction', link: '/InternshipReport/Introduction'},
-// 	{title: 'Développement', link: '/InternshipReport/Développement'},
-// 	{title: 'Conclusion', link: '/InternshipReport/Conclusion'},
-// ];
+function NavBar2() {
+    const [click, setClick] = useState(false);
+    const [dropdown, setDropdown] = useState(false);
 
-const NavBar2 = () => {
+    const handleClick = () => setClick(!click);
+    const closeMobileMenu = () => setClick(false);
+
+    const onMouseEnter = () => {
+        if (window.innerWidth < 960) {
+        setDropdown(false);
+        } else {
+        setDropdown(true);
+        }
+    };
+
+    const onMouseLeave = () => {
+        if (window.innerWidth < 960) {
+        setDropdown(false);
+        } else {
+        setDropdown(false);
+        }
+    };
+
     return (
         <main>
             <nav className='navbar'>
-                <div id="logo">InternshipReport</div>
-                <label for="drop" className="toggle">Menu</label>
-                <input type="checkbox" id="drop" />
-                <ul className="sections-list">
-                    <li className='section'><Link className='links' to='/InternshipReport'>Remerciements</Link></li>
-                    <li className='section'><Link className='links' to='/InternshipReport'>Plan</Link></li>
-                    <li className='section'><Link className='links' to='/InternshipReport'>Introduction</Link></li>
-                    <li className='section'><Link className='links' to='/InternshipReport'>Développement</Link></li>
-                    <li className='section'>
-                        <label for="drop-1" className="toggle">Teams +</label>
-                        <Link className='links' to='/InternshipReport'>Teams</Link>
-                        <input type="checkbox" id="drop-1"/>
-                        <ul>
-                            <li className='section'><Link className='links' to='/InternshipReport'>Datamining</Link></li>
-                            <li className='section'><Link className='links' to='/InternshipReport'>Dataservices</Link></li>
-                        </ul> 
+                <Link to='/InternshipReport' className='navbar-logo' onClick={closeMobileMenu}>
+                    InternshipReport
+                    <i className='fab fa-firstdraft' />
+                </Link>
+                <div className='menu-icon' onClick={handleClick}>
+                    <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+                </div>
+                <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                    <li className='nav-item'>
+                        <Link to='/InternshipReport' className='nav-links' onClick={closeMobileMenu}>
+                            Remerciement
+                        </Link>
                     </li>
-                    <li className='section'><Link className='links' to='/InternshipReport'>Conclusion</Link></li>
+                    <li className='nav-item'>
+                        <Link to='/InternshipReport' className='nav-links' onClick={closeMobileMenu}>
+                            Plan
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='/InternshipReport' className='nav-links' onClick={closeMobileMenu}>
+                            Introduction
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='/InternshipReport' className='nav-links' onClick={closeMobileMenu}>
+                            Développement
+                        </Link>
+                    </li>
+                    <li className='nav-item' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+                        <p className='nav-links' onClick={closeMobileMenu}>
+                            Teams
+                            <i className='fas fa-caret-down' />
+                        </p>
+                        {dropdown && <DropDown />}
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='/InternshipReport' className='nav-links' onClick={closeMobileMenu}>
+                            Conclusion
+                        </Link>
+                    </li>
                 </ul>
             </nav>
         </main>
-    )
+    );
 }
 
-
-
-export default NavBar2
+export default NavBar2;

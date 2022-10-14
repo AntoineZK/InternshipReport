@@ -1,256 +1,110 @@
-/* CSS Document */
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
-
-body {
-	background: #212121;
-	font-size:22px;
-	line-height: 32px;
-	color: #ffffff;
-	margin: 0;
-	padding: 0;
-	word-wrap:break-word !important;
-	font-family: 'Open Sans', sans-serif;
-	}
-
-h1 {
-	font-size: 60px;
-	text-align: center;
-	color: #FFF;
-}	
-
-h3 {
-	font-size: 30px;
-	line-height: 34px;
-	text-align: center;
-	color: #FFF;
+.navbar {
+	background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+	height: 80px;
+	display: flex;
+	font-size: 1.2rem;
+	justify-content: space-between;
 }
 
-h3 a {
-	color: #FFF;
+.navbar-logo {
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+	padding: 1.5rem;
 }
 
-a {
-	color: #FFF;
+.navbar-logo.active {
+	color: #1888ff;
+	/* color: #15cdfc; */
 }
 
-h1 {
-	margin-top: 100px;
-	text-align:center;
-	font-size:60px;
-	line-height: 70px;
-	font-family: 'Bree Serif', 'serif';
-	}
-
-#container {
-	margin: 0 auto;
-	max-width: 890px;
-}
-
-p {
-	text-align: center;
-}
-
-.toggle,
-[id^=drop] {
-	display: none;
-}
-
-/* Giving a background-color to the nav container. */
-.navbar { 
-	margin:0;
-	padding: 0;
-	background-color: #254441;
-}
-
-#logo {
-	display: block;
-	padding: 0 30px;
-	float: left;
-	font-size:20px;
-	line-height: 60px;
-}
-
-/* Since we'll have the "ul li" "float:left"
- * we need to add a clear after the container. */
-
-.navbar:after {
-	content:"";
-	display:table;
-	clear:both;
-}
-
-/* Removing padding, margin and "list-style" from the "ul",
- * and adding "position:reltive" */
-.sections-list {
-	float: right;
-	padding:0;
-	margin:0;
+.nav-menu {
+	display: grid;
+	grid-template-columns: repeat(6, auto);
+	grid-gap: 10px;
 	list-style: none;
-	position: relative;
-	}
-	
-/* Positioning the navigation items inline */
-.section {
-	margin: 0px;
-	display:inline-block;
-	float: left;
-	background-color: #254441;
-	}
-
-/* Styling the links */
-.links {
-	display:block;
-	padding:14px 20px;	
-	color:#FFF;
-	font-size:17px;
-	text-decoration:none;
+	text-align: center;
+	justify-content: end;
+	margin-right: 2rem;
 }
 
-/* Background color change on Hover */
-.links:hover { 
-	color: blue;
+.nav-item {
+	display: flex;
+	align-items: center;
+	height: 80px;
 }
 
-/* Hide Dropdowns by Default
- * and giving it a position of absolute */
-nav ul ul {
+.nav-links {
+	color: white;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+}
+
+.nav-links:hover {
+	background-color: #1888ff;
+	border-radius: 4px;
+	transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+	color: #fff;
+}
+
+.menu-icon {
 	display: none;
-	position: absolute; 
-	/* has to be the same number as the "line-height" of "nav a" */
-	top: 60px; 
 }
-	
-/* Display Dropdowns on Hover */
-nav ul li:hover > ul {
-	display:inherit;
-}
-	
-/* Fisrt Tier Dropdown */
-nav ul ul li {
-	width:170px;
-	float:none;
-	display:list-item;
-	position: relative;
-}
-	
-/* Change ' +' in order to change the Dropdown symbol */
-li > a:after { content:  ' +'; }
-li > a:only-child:after { content: ''; }
 
-
-/* Media Queries
---------------------------------------------- */
-
-@media all and (max-width : 768px) {
-
-	#logo {
-		display: block;
-		padding: 0;
+@media screen and (max-width: 960px) {
+	.nav-menu {
+		display: flex;
+		flex-direction: column;
 		width: 100%;
+		height: 90vh;
+		position: absolute;
+		top: 80px;
+		left: -100%;
+		opacity: 1;
+		transition: all 0.5s ease;
+	}
+
+	.nav-menu.active {
+		background: #242222;
+		left: 0;
+		opacity: 1;
+		transition: all 0.5s ease;
+		z-index: 1;
+	}
+
+	.nav-links {
 		text-align: center;
-		float: none;
-	}
-
-	.navbar {
-		margin: 0;
-	}
-
-	/* Hide the navigation menu by default */
-	/* Also hide the  */
-	.toggle + a,
-	.sections-list {
-		display: none;
-	}
-
-	/* Stylinf the toggle lable */
-	.toggle {
-		display: block;
-		background-color: #254441;
-		padding:14px 20px;	
-		color:#FFF;
-		font-size:17px;
-		text-decoration:none;
-		border:none;
-	}
-
-	.toggle:hover {
-		background-color: #000000;
-	}
-
-	/* Display Dropdown when clicked on Parent Lable */
-	[id^=drop]:checked + ul {
-		display: block;
-	}
-
-	/* Change menu item's width to 100% */
-	nav ul li {
-		display: block;
+		padding: 2rem;
 		width: 100%;
-		}
-
-	nav ul ul .toggle,
-	nav ul ul a {
-		padding: 0 40px;
+		display: table;
 	}
 
-	nav ul ul ul a {
-		padding: 0 80px;
+	.nav-links:hover {
+		background-color: #1888ff;
+		border-radius: 0;
 	}
 
-	nav a:hover,
- 	nav ul ul ul a {
-		background-color: #000000;
-	}
-  
-	nav ul li ul li .toggle,
-	nav ul ul a,
-  nav ul ul ul a{
-		padding:14px 20px;	
-		color:#FFF;
-		font-size:17px; 
-	}
-  
-  
-	nav ul li ul li .toggle,
-	nav ul ul a {
-		background-color: #212121; 
+	.navbar-logo {
+		position: absolute;
+		top: 0;
+		left: 0;
 	}
 
-	/* Hide Dropdowns by Default */
-	nav ul ul {
-		float: none;
-		position:static;
-		color: #ffffff;
-		/* has to be the same number as the "line-height" of "nav a" */
-	}
-		
-	/* Hide menus on hover */
-	nav ul ul li:hover > ul,
-	nav ul li:hover > ul {
-		display: none;
-	}
-		
-	/* Fisrt Tier Dropdown */
-	nav ul ul li {
+	.menu-icon {
 		display: block;
-		width: 100%;
+		position: absolute;
+		top: 0;
+		right: 0;
+		transform: translate(-100%, 60%);
+		font-size: 1.8rem;
+		cursor: pointer;
 	}
 
-	nav ul ul ul li {
-		position: static;
-		/* has to be the same number as the "width" of "nav ul ul li" */ 
-
+	.fa-times {
+		color: #fff;
+		font-size: 2rem;
 	}
-
-}
-
-@media all and (max-width : 330px) {
-
-	nav ul li {
-		display:block;
-		width: 94%;
-	}
-
 }
