@@ -44,10 +44,10 @@ function NavBar({ handleClick, closeMobileMenu, click}) {
                         </Link>
                     </li>
                     <li className='nav-item' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-                        <p className='nav-links' onClick={closeMobileMenu}>
+                        <Link to='/InternshipReport/Teams' className='nav-links' onClick={closeMobileMenu}>
                             Teams
                             <i className='fas fa-caret-down' />
-                        </p>
+                        </Link>
                         {dropdown && <DropDown />}
                     </li>
                     <li className='nav-item'>

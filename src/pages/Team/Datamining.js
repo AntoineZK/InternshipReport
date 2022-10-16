@@ -1,11 +1,10 @@
 import React from 'react'
 import '../Style.css'
 
-
 const Datamining = () => {
     return (
-        <div className='title'>
-            <h1>Datamining</h1>
+        <div>
+            <h1 className='title'>Datamining</h1>
         </div>
     );
 }

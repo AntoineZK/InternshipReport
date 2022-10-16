@@ -3,8 +3,8 @@ import './Style.css'
 
 const Développement = () => {
     return (
-        <div className='title'>
-            <h1>Développement</h1>
+        <div>
+            <h1 className='title'>Développement</h1>
         </div>
     );
 };

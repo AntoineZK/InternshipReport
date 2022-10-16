@@ -13,6 +13,7 @@ const plan = [
 	{name: 'Departement CDO', link: '/InternshipReport/Plan'},
 	{name: 'Informations et outils', link: '/InternshipReport/Plan'},
 	{name: 'Environnement de travail', link: '/InternshipReport/Plan'},
+	{name: 'Equipes', link: '/InternshipReport/Plan'},
 ];
 
 const team_section = [

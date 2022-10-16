@@ -19,9 +19,7 @@ qualité de leur enseignement qui a grandement contribué au bon déroulement de
 const Remerciements = ({ closeMobileMenu }) => {
     return (
         <div>
-            <h1 className='title'>
-                Remerciements
-            </h1>
+            <h1 className='title'>Remerciements</h1>
             <p className='thanks-text'>{manager}</p>
             <p className='thanks-text'>{teams}</p>
             <p className='thanks-text'>{epitech}</p>

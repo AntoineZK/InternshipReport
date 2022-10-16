@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { Footer, NavBar } from './components/Components'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Home, Remerciements, Plan, Introduction, Développement, Datamining, Dataservices, Conclusion } from './pages/Pages'
+import { Home, Remerciements, Plan, Introduction, Développement, Teams, Datamining, Dataservices, Conclusion } from './pages/Pages'
 
 function App() {
 	const [click, setClick] = React.useState(false);
@@ -19,6 +19,7 @@ function App() {
 				<Route path='/InternshipReport/Plan' element={<Plan closeMobileMenu={closeMobileMenu} />} />
 				<Route path='/InternshipReport/Introduction' element={<Introduction/>} />
 				<Route path='/InternshipReport/Développement' element={<Développement/>} />
+				<Route path='/InternshipReport/Teams' element={<Teams/>} />
 				<Route path='/InternshipReport/Datamining' element={<Datamining/>} />
 				<Route path='/InternshipReport/Dataservices' element={<Dataservices/>} />
 				<Route path='/InternshipReport/Conclusion' element={<Conclusion/>} />
