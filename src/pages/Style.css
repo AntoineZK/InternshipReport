@@ -74,3 +74,18 @@
     text-decoration: none;
     color: darkgreen;
 }
+
+.BI_Text {
+    margin-top: 15vh;
+    text-align: center;
+}
+
+.DS_Text {
+    margin-top: 15vh;
+    text-align: center;
+}
+
+.PwC_Text {
+    margin-top: 15vh;
+    text-align: center;
+}

@@ -4,7 +4,7 @@ import './Style.css'
 
 const TwoLink = [
     {style: {color: 'blue'}, link: '/InternshipReport/Plan'},
-    {style: {color: 'blue'}, link: '/InternshipReport/Développement'},
+    {style: {color: 'blue'}, link: '/InternshipReport/Developpement'},
 ];
 
 const Introduction = ({ closeMobileMenu }) => {

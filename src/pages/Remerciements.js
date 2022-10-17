@@ -13,7 +13,7 @@ Monsieur Éric FRANÇOIS pour m’avoir permis de réaliser ce stage chez PWC Lu
 de s’être rendu disponible durant pour m’avoir prodigué de nombreux conseils tout au long de mon stage.`
 
 const teams = 
-`Je tiens à remercier également toute l’équipe DataScience ainsi que Data Services
+`Je tiens à remercier également toute l’équipe DataScience ainsi que Business Intelligence
 pour m’avoir transmis leurs connaissances et guidé dans la réalisation de mes tâches
 ainsi que pour leur aide, leur sympathie et pour m’avoir aidé à m’intégrer à l’entreprise.`
 

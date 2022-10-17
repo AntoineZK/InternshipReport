@@ -39,8 +39,8 @@ function NavBar({ handleClick, closeMobileMenu, click}) {
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/InternshipReport/Développement' className='nav-links' onClick={closeMobileMenu}>
-                            Développement
+                        <Link to='/InternshipReport/Developpement' className='nav-links' onClick={closeMobileMenu}>
+                            Developpement
                         </Link>
                     </li>
                     <li className='nav-item' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
