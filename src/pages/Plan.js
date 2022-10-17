@@ -2,7 +2,12 @@ import React from 'react';
 import './Style.css'
 // import { NavLink as Link } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
+import { NextPages } from '../components/Components';
 
+const TwoLink = [
+    {style: {color: 'blue'}, link: '/InternshipReport/Remerciements'},
+    {style: {color: 'blue'}, link: '/InternshipReport/Introduction'},
+];
 
 const plan = [
 	{name: 'Introduction', link: '/InternshipReport/Plan'},
@@ -33,24 +38,24 @@ function Section({ closeMobileMenu }) {
     return (
         <ul style={{textAlign: 'center', marginTop: '7vh'}}>
             {plan.map((value, index) => (
-                <li style={{marginBottom: '3vh'}}>
-                    <Link className='summary_1' key={index} to={value.link} onClick={closeMobileMenu}>{value.name}</Link>
+                <li style={{marginBottom: '3vh'}} key={index}>
+                    <Link className='summary_1' to={value.link} onClick={closeMobileMenu}>{value.name}</Link>
                 </li>
             ))}
             <li style={{marginBottom: '3vh'}} onClick={handleClick}>
-                <Link className='summary_1' to='/InternshipReport/Plan'>L'Equipe DataMining</Link>
+                <Link className='summary_1' to='/InternshipReport/Plan'>L'Equipe DataScience</Link>
                 <ul className={click > 0 ? 'display-team.active' : 'display-team'}>
-                    {team_section.map((value, index) => (
-                        <li>
-                            <Link className='summary_2' key={index} to={value.link} onClick={closeMobileMenu}>
-                                <i className="fa-solid fa-arrow-right"></i>{value.name}
+                    {team_section.map((value2, index2) => (
+                        <li key={index2}>
+                            <Link className='summary_2' to={value2.link} onClick={closeMobileMenu}>
+                                <i className="fa-solid fa-arrow-right"></i>{value2.name}
                             </Link>
                         </li>
                     ))}
                 </ul>
             </li>
             <li  style={{marginBottom: '3vh'}} onClick={handleClick2}>
-                <Link className='summary_1' to='/InternshipReport/Plan'>L'Equipe Services</Link>
+                <Link className='summary_1' to='/InternshipReport/Plan'>L'Equipe Business Intelligence</Link>
                 <ul className={click2 ? 'display-team.active' : 'display-team'}>
                     {team_section.map((value, index) => (
                         <li>
@@ -75,15 +80,7 @@ const Plan = ({ closeMobileMenu }) => {
                 Sommaire
             </h1>
             <Section closeMobileMenu={closeMobileMenu} />
-            <div className='two-link'>
-                <Link style={{color: 'blue'}} to='/InternshipReport/Remerciements' onClick={closeMobileMenu}>
-                    <i className="fa-solid fa-angle-left fa-3x"></i>
-                </Link>
-                <i className="fa-solid fa-ellipsis-vertical fa-3x" style={{color: 'blue'}}></i>
-                <Link style={{color: 'blue'}} to='/InternshipReport/Introduction' onClick={closeMobileMenu}>
-                    <i className="fa-solid fa-angle-right fa-3x"></i>
-                </Link>
-            </div>
+            <NextPages closeMobileMenu={closeMobileMenu} TwoLink={TwoLink} Status={2}/>
         </div>
     );
 };

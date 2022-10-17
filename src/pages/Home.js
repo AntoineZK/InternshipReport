@@ -1,15 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import PwC_Logo from '../assets/pwc.png'
 import Tek_Logo from '../assets/tek.png'
+import { NextPages } from '../components/Components';
 import './Style.css'
+
+const TwoLink = [
+    {style: {color: 'grey'}, link: '/'},
+    {style: {color: 'blue'}, link: '/InternshipReport/Remerciements'},
+];
 
 const Home = ({ closeMobileMenu }) => {
 	return (
         <div>
-            <h1 className='title'>
-                Rapport de stage
-            </h1>
+            <h1 className='title'>Rapport de stage</h1>
             <div className='display-image'>
                 <img src={PwC_Logo} alt="PwC_Logo" width={400}/>
             </div>
@@ -25,13 +28,7 @@ const Home = ({ closeMobileMenu }) => {
                 <h3>Maître de stage : Éric François</h3>
                 <h3>Entreprise : PWC Luxembourg</h3>
             </div>
-            <div className='two-link'>
-                <i className="fa-solid fa-angle-left fa-3x" style={{color: 'grey'}}></i>
-                <i className="fa-solid fa-ellipsis-vertical fa-3x" style={{color: 'blue'}}></i>
-                <Link style={{color: 'blue'}} to='/InternshipReport/Remerciements' onClick={closeMobileMenu}>
-                    <i className="fa-solid fa-angle-right fa-3x"></i>
-                </Link>
-            </div>
+            <NextPages closeMobileMenu={closeMobileMenu} TwoLink={TwoLink} Status={1}/>
         </div>
 	);
 };

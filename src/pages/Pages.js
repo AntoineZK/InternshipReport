@@ -5,6 +5,6 @@ import Introduction from "./Introduction"
 import Développement from "./Développement"
 import Conclusion from "./Conclusion";
 import Teams from "./Team/Teams"
-import Datamining from "./Team/Datamining"
-import Dataservices from "./Team/Dataservices"
-export { Home, Remerciements, Plan, Introduction, Développement, Teams, Datamining, Dataservices, Conclusion }
+import DataScience from "./Team/DataScience"
+import BusinessIntelligence from "./Team/BusinessIntelligence"
+export { Home, Remerciements, Plan, Introduction, Développement, Teams, DataScience, BusinessIntelligence, Conclusion }

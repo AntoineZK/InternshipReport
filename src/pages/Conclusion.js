@@ -1,11 +1,18 @@
 import React from 'react'
+import { NextPages } from '../components/Components';
 import './Style.css'
 
-const Conclusion = () => {
+const TwoLink = [
+    {style: {color: 'blue'}, link: '/InternshipReport/Teams'},
+    {style: {color: 'grey'}, link: '/'},
+];
+
+const Conclusion = ({ closeMobileMenu }) => {
     return (
         <div>
             <h1 className='title'>Conclusion</h1>
 			<a href="/pwc.png" download>Download my Resume!</a>
+            <NextPages closeMobileMenu={closeMobileMenu} TwoLink={TwoLink} Status={3}/>
         </div>
     );
 }
