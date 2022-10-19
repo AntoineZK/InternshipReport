@@ -89,3 +89,20 @@
     margin-top: 15vh;
     text-align: center;
 }
+
+.paragraph {
+    white-space: pre-wrap;
+}
+
+.pwcCP {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2%;
+    margin-top: 10vh;
+}
+
+.CP_IMG {
+    border-radius: 20%;
+}
