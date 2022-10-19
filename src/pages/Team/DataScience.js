@@ -11,23 +11,23 @@ const DataScience = ({ closeMobileMenu }) => {
     return (
         <div>
             <h1 className='title'>DataScience</h1>
-            <div id='DS_Contexte' className='DS_Text'>
-                <h2>Contexte</h2>
+            <div id='DS_Contexte'>
+                <h2 className='DS_Text'>Contexte</h2>
             </div>
-            <div id='DS_Prob' className='DS_Text'>
-                <h2>Problématique</h2>
+            <div id='DS_Prob'>
+                <h2 className='DS_Text'>Problématique</h2>
             </div>
-            <div id='DS_Objectif' className='DS_Text'>
-                <h2>Objectif</h2>
+            <div id='DS_Objectif'>
+                <h2 className='DS_Text'>Objectif</h2>
             </div>
-            <div id='DS_Projets' className='DS_Text'>
-                <h2>Projets</h2>
+            <div id='DS_Projets'>
+                <h2 className='DS_Text'>Projets</h2>
             </div>
-            <div id='DS_DiffRen' className='DS_Text'>
-                <h2>Difficultés rencontrées</h2>
+            <div id='DS_DiffRen'>
+                <h2 className='DS_Text'>Difficultés rencontrées</h2>
             </div>
-            <div id='DS_ConnAcquises' className='DS_Text'>
-                <h2>Connaissances acquises</h2>
+            <div id='DS_ConnAcquises'>
+                <h2 className='DS_Text'>Connaissances acquises</h2>
             </div>
             <NextPages closeMobileMenu={closeMobileMenu} TwoLink={TwoLink} Status={3}/>
         </div>

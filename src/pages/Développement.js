@@ -2,7 +2,7 @@ import React from 'react';
 import './Style.css'
 import PwC_CP_Ext from '../assets/pwcCP.jpg'
 import PwC_CP_Int from '../assets/pwcCP2.jpg'
-import { EnvWork, EnvWork2, Gbl } from './DévText';
+import { EnvWork, EnvWork2, Gbl } from './DevText';
 import { NextPages } from '../components/Components';
 
 const TwoLink = [
@@ -14,24 +14,24 @@ const Developpement = ({ closeMobileMenu }) => {
     return (
         <div>
             <h1 className='title'>Developpement</h1>
-            <div id='PwC_Contexte' className='PwC_Text'>
-                <h2>Contexte</h2>
+            <div id='PwC_Contexte'>
+                <h2 className='PwC_Text'>Contexte</h2>
             </div>
-            <div id='PwC_Global' className='PwC_Text'>
-                <h2>PwC Global</h2>
+            <div id='PwC_Global'>
+                <h2 className='PwC_Text'>PwC Global</h2>
                 <p className='paragraph'>{Gbl}</p>
             </div>
-            <div id='PwC_Lux' className='PwC_Text'>
-                <h2>PwC Luxembourg</h2>
+            <div id='PwC_Lux'>
+                <h2 className='PwC_Text'>PwC Luxembourg</h2>
             </div>
-            <div id='PwC_CDO' className='PwC_Text'>
-                <h2>Le département CDO</h2>
+            <div id='PwC_CDO'>
+                <h2 className='PwC_Text'>Le département CDO</h2>
             </div>
-            <div id='PwC_IETO' className='PwC_Text'>
-                <h2>Informations et outils</h2>
+            <div id='PwC_IETO'>
+                <h2 className='PwC_Text'>Informations et outils</h2>
             </div>
-            <div id='PwC_Env' className='PwC_Text'>
-                <h2>Environnement de travail</h2>
+            <div id='PwC_Env'>
+                <h2 className='PwC_Text'>Environnement de travail</h2>
                 <p className='paragraph'>{EnvWork}</p>
                 <div className='pwcCP'>
                     <img className='CP_IMG' src={PwC_CP_Ext} alt="PwC_CP_Ext" width={400} height={400}/>
