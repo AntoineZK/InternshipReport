@@ -106,3 +106,16 @@
 .CP_IMG {
     border-radius: 20%;
 }
+
+.pwcIETO {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+    margin-top: 10vh;
+}
+
+.IETO_IMG {
+    border-radius: 10%;
+}

@@ -38,7 +38,6 @@ Origine :
 
     - 2010 : La marque de la société devient PWC.
 `
-
 const EnvWork = `PwC Luxembourg se situe actuelement ans dans le batiment nommé Crystal Park.
 Ce batiment de plus de 45 000m^2 rassemble la plupart des collaborateurs de PwC luxembourg,
 ce batiment possede tout ce qui faut pour etre a l'aise pour travailler aussi bien une salle de repos,
@@ -58,4 +57,23 @@ qu'un casque, souris et sacoche.
 A nos poste de travail on possede deux ecrans qui peuvent etre relie aux pc de PwC pour pouvoir nous
 faire un setup a 3 ecran.`
 
-export { Gbl, EnvWork, EnvWork2 }
+const InfOut = `
+A PwC pres de 100% des outils informatiques sont gere en interne, il en existe plusieurs dizaines d'applications 
+qui sont dédié au differents metier du réseaux, pour citer les plus importantes :
+
+    - Piwic : L'intranet de PwC un site ou une application ou se trouve les differents outils.
+
+    - Workday : C'est une plateforme ou se trouve toutes nos informations personnelle que nous devons renseigner
+                a notre arriver tel que notre nom, prenom, telephone, RIB etc, c'est aussi ici que nous 
+                pouvons poser des jours de conge ou d'arret maladie etc
+
+    - D&R Booking : comme dis precedemment vu que nous travaillons en open space aucune place nous est reserve et
+                    donc nous devons imperativement reserver nos places, nous pouvons reserver nos places jusque 
+                    4 semaines avant la semaine de reservation.
+
+    - Time and Expenses : C'est la plateforme qui nous permet principalement de mettre a quelle heure nous arrivons
+                          et nous partons ainsi que quelle tache nous avons fait telle jour pendant combien de temps,
+                          par exemple Self Training, Team Meeting etc
+`
+
+export { Gbl, EnvWork, EnvWork2, InfOut }
