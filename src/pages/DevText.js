@@ -76,4 +76,12 @@ qui sont dédié au differents metier du réseaux, pour citer les plus important
                           par exemple Self Training, Team Meeting etc
 `
 
-export { Gbl, EnvWork, EnvWork2, InfOut }
+const CDO = `Dans ce stage j'ai eu la chance de travailler avec deux differentes equipes les deux se trouvant dans le departement Central Data Office
+souvent abreger en CDO, la mission de ce departement consiste a transformer la firme PwC en une firme data-compatible sous la supervision d'une nouvelle
+Equipe de gestion de donne qui represente les differentes parties relie au Data.`
+
+const CDO2 = `Le services dans lequel j'ai travailler durant tous mon stage s'appelle Data Factory dirige par Eric FRANCOIS en tant que Manager,
+Data Factory comporte de multiple equipe dont notamment Data Science dirige par Joseph EMERAS mon premier chef d'equipe ainsi que Reporting - Dashboarding dirige
+par  Nathanael Vandenberghe mon second chef d'equipe`
+
+export { Gbl, EnvWork, EnvWork2, InfOut, CDO, CDO2 }

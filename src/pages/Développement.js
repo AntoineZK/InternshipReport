@@ -1,12 +1,13 @@
 import React from 'react';
 import './Style.css'
+import hierarchy from '../assets/Organigramme.png'
 import PwC_CP_Ext from '../assets/pwcCP.jpg'
 import PwC_CP_Int from '../assets/pwcCP2.jpg'
 import Workday from '../assets/workday.png'
 import Piwic from '../assets/piwic.png'
 import Booking from '../assets/booking.png'
 import TimeAndExp from '../assets/timeandex.png'
-import { EnvWork, EnvWork2, Gbl, InfOut } from './DevText';
+import { EnvWork, EnvWork2, Gbl, InfOut, CDO, CDO2 } from './DevText';
 import { NextPages } from '../components/Components';
 
 const TwoLink = [
@@ -30,6 +31,11 @@ const Developpement = ({ closeMobileMenu }) => {
             </div>
             <div id='PwC_CDO'>
                 <h2 className='PwC_Text'>Le département CDO</h2>
+                <p className='paragraph'>{CDO}</p>
+                <div className='pwcHierarchy'>
+                    <img src={hierarchy} alt="hierarchy"/>
+                </div>
+                <p className='paragraph'>{CDO2}</p>
             </div>
             <div id='PwC_Env'>
                 <h2 className='PwC_Text'>Environnement de travail</h2>
