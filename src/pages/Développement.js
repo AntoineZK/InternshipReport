@@ -7,7 +7,7 @@ import Workday from '../assets/workday.png'
 import Piwic from '../assets/piwic.png'
 import Booking from '../assets/booking.png'
 import TimeAndExp from '../assets/timeandex.png'
-import { EnvWork, EnvWork2, Gbl, InfOut, CDO, CDO2 } from './DevText';
+import { EnvWork, EnvWork2, Gbl, InfOut, CDO, CDO2, Lux } from './DevText';
 import { NextPages } from '../components/Components';
 
 const TwoLink = [
@@ -28,6 +28,7 @@ const Developpement = ({ closeMobileMenu }) => {
             </div>
             <div id='PwC_Lux'>
                 <h2 className='PwC_Text'>PwC Luxembourg</h2>
+                <p className='paragraph'>{Lux}</p>
             </div>
             <div id='PwC_CDO'>
                 <h2 className='PwC_Text'>Le département CDO</h2>

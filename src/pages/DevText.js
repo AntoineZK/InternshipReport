@@ -38,6 +38,14 @@ Origine :
 
     - 2010 : La marque de la société devient PWC.
 `
+
+const Lux = `PwC Luxembourg est le plus grand cabinet de services professionnels au Luxembourg avec plus de 3000 employe
+de 82 pays differents. PwC Luxembourg fournit des services d'audit, de fiscalité et de conseil, notamment des conseils en 
+gestion, des transactions, des financements et des conseils réglementaires de plus la firme donne des conseils to une grande 
+variete de client,des entrepreneurs locaux et du marché intermédiaire aux grandes entreprises multinationales opérant à partir du
+Luxembourg et de la Grande Région. La firme aide leurs clients a leur faire obtenir la valeur qu'ils veulent en contribuant de facon 
+lisse et non brut`
+
 const EnvWork = `PwC Luxembourg se situe actuelement ans dans le batiment nommé Crystal Park.
 Ce batiment de plus de 45 000m^2 rassemble la plupart des collaborateurs de PwC luxembourg,
 ce batiment possede tout ce qui faut pour etre a l'aise pour travailler aussi bien une salle de repos,
@@ -82,6 +90,8 @@ Equipe de gestion de donne qui represente les differentes parties relie au Data.
 
 const CDO2 = `Le services dans lequel j'ai travailler durant tous mon stage s'appelle Data Factory dirige par Eric FRANCOIS en tant que Manager,
 Data Factory comporte de multiple equipe dont notamment Data Science dirige par Joseph EMERAS mon premier chef d'equipe ainsi que Reporting - Dashboarding dirige
-par  Nathanael Vandenberghe mon second chef d'equipe`
+par  Nathanael Vandenberghe mon second chef d'equipe.
 
-export { Gbl, EnvWork, EnvWork2, InfOut, CDO, CDO2 }
+IFS = Internal Firm Services`
+
+export { Gbl, EnvWork, EnvWork2, InfOut, CDO, CDO2, Lux }
