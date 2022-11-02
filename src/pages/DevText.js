@@ -36,7 +36,7 @@ Origine :
 
     - 2009 : PwC annonce l’acquisition de Paragon Consulting Group et Bearing Point.
 
-    - 2010 : La marque de la société devient PWC.
+    - 2010 : La marque de la société devient PwC.
 `
 
 const Lux = `PwC Luxembourg est le plus grand cabinet de services professionnels au Luxembourg avec plus de 3000 employe
