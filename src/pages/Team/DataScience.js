@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Style.css'
 import { NextPages } from '../../components/Components';
-import { outils } from './DataScienceText';
+import { DiffRen, outils, project } from './DataScienceText';
 
 const TwoLink = [
     {style: {color: 'blue'}, link: '/InternshipReport/Teams'},
@@ -27,9 +27,11 @@ const DataScience = ({ closeMobileMenu }) => {
             </div>
             <div id='DS_Projets'>
                 <h2 className='DS_Text'>Projets</h2>
+                <p className='paragraph'>{project}</p>
             </div>
             <div id='DS_DiffRen'>
                 <h2 className='DS_Text'>Difficultés rencontrées</h2>
+                <p className='paragraph'>{DiffRen}</p>
             </div>
             <div id='DS_ConnAcquises'>
                 <h2 className='DS_Text'>Connaissances acquises</h2>
