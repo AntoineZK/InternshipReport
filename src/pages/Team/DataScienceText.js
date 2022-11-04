@@ -19,7 +19,7 @@ Scheduler : Ce projet consitait a migrer un framework C# de la version 4.6.1 jus
 etant donner que le framekwork 4.6.1 va bientot etre "perime" et donc sans mise a jour ni resolution des problemes, ensuite j'ai du faire des tests unitaires pour tester leurs
 fonctions deja existantes pour etre sur que aux fur a mesures des fonctions et donc des modifications aucun probleme peut arriver au fonctions generiques qu'ils ont creer.
 
-RBE : Le second projet est bien differnet du premier deja comparer au premier j'ai du commencer ce projet de 0, donc pas de base sur lesquels m'aider mais en contrepartie une 
+RBE : Le second projet est bien different du premier deja comparer au premier j'ai du commencer ce projet de 0, donc pas de base sur lesquels m'aider mais en contrepartie une 
 liberte sur la facon de coder ainsi que comment realiser le projet, Pour realiser ce projet j'ai du utiliser plusieurs outils comme : les fonctions Azures. 
 Les fonctions Azure sont un concept sans serveur de conception native cloud qui permet à un morceau de code de se déployer et de s'exécuter sans avoir
 besoin d'infrastructure de serveur, de serveur Web ou de toute autre configuration. Le second outils c'est le web scrapping, le web scrapping consiste en extraire des donnees d0un

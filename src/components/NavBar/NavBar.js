@@ -13,7 +13,7 @@ function NavBar({ handleClick, closeMobileMenu, click}) {
         window.innerWidth < 960 ? setDropdown(false) : setDropdown(false);
     };
     return (
-        <main>
+        <header>
             <nav className='navbar'>
                 <Link to='/InternshipReport' className='navbar-logo' onClick={closeMobileMenu}>
                     InternshipReport
@@ -57,7 +57,7 @@ function NavBar({ handleClick, closeMobileMenu, click}) {
                     </li>
                 </ul>
             </nav>
-        </main>
+        </header>
     );
 }
 
