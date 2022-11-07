@@ -10,8 +10,10 @@ const TwoLink = [
 const Conclusion = ({ closeMobileMenu }) => {
     return (
         <div>
-            <h1 className='title'>Conclusion</h1>
-			<a href="/pwc.png" download>Download my Resume!</a>
+            <main>
+                <h1 className='title'>Conclusion</h1>
+                <a href="/pwc.png" download>Download my Resume!</a>
+            </main>
             <NextPages closeMobileMenu={closeMobileMenu} TwoLink={TwoLink} Status={3}/>
         </div>
     );

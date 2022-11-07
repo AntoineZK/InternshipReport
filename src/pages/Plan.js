@@ -85,10 +85,12 @@ function Section({ closeMobileMenu }) {
 const Plan = ({ closeMobileMenu }) => {
     return (
         <div>
-            <h1 className='title'>
-                Sommaire
-            </h1>
-            <Section closeMobileMenu={closeMobileMenu} />
+            <main>
+                <h1 className='title'>
+                    Sommaire
+                </h1>
+                <Section closeMobileMenu={closeMobileMenu} />
+            </main>
             <NextPages closeMobileMenu={closeMobileMenu} TwoLink={TwoLink} Status={2}/>
         </div>
     );

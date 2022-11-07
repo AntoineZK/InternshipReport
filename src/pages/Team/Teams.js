@@ -13,9 +13,11 @@ d'un cote la recuperation de donnee et leurs utilisation quand de l'autre cote j
 const Teams = ({ closeMobileMenu }) => {
     return (
         <div>
-            <h1 className='title'>Teams</h1>
-            <p className='thanks-text'>{TeamText}</p>
-			<TableTeam/>
+            <main>
+                <h1 className='title'>Teams</h1>
+                <p className='thanks-text'>{TeamText}</p>
+                <TableTeam/>
+            </main>
             <NextPages closeMobileMenu={closeMobileMenu} TwoLink={TwoLink} Status={2}/>
         </div>
     )

@@ -26,8 +26,10 @@ et ainsi que le fonctionnement d'une équipe d'informatique dans une société a
 const Introduction = ({ closeMobileMenu }) => {
     return (
         <div>
-            <h1 className='title'>Introduction</h1>
-            <p className='paragraph'>{Intro}</p>
+            <main>
+                <h1 className='title'>Introduction</h1>
+                <p className='paragraph'>{Intro}</p>
+            </main>
             <NextPages closeMobileMenu={closeMobileMenu} TwoLink={TwoLink} Status={2}/>
         </div>
     );
