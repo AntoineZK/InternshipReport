@@ -7,21 +7,22 @@ const TwoLink = [
     {style: {color: 'blue'}, link: '/InternshipReport/Developpement'},
 ];
 
-const Intro = `Nous sommes actuellement dans une ère ou les entreprises accordent de plus en plus d'importance à l'informatique tout en se livrant une guerre
-pour savoir qui va le mieux recuperer les donnees, le plus rapidement et analyser c'est meme donnee appeler Big Data.
+const Intro = `Nous sommes actuellement dans une ère où les entreprises accordent de plus en plus d'importance à l'informatique ainsi qu'au digital
+et plus particulièrement à la data, la Big Data, la recuperation, l'analyse et l'utilisation massive de données.
 
-Dans la societe d'aujourd'hui les donnees sont le 'pétrole du numerique'. Notre monde d'ajourd'hui est compose de donnee de plus en plus volumineuse,
-ce qui a pour impact de complétement transformer les organisations et les firmes qui les utilises.
+Notre monde d'aujourd'hui est constitue en quasi totalite de donnee, ces memes donnees qui sont considere comme le "pétrole du numerique". Effectivement,
+les donnees sont de plus en plus presente, analyse, sensiblem, volumineuses, ce qui a eu pour impact de completement transformer et revolutionner des 
+organisations et leur prise de decision.
 
-Les dirigeants de PwC Luxembourg ont ete visionnaires et ont compris qu'il fallait beaucoup de chose pour pouvoir rester a la pointe de la technologie et 
-des donnees , c'est pour cela qu'ils ont investis, de un pour rester au niveau en terme de technologies et de deux pour pouvoir gerer toutes les donnees
-en interne et donc eviter de transmettre des donnees sensible a des firmes de moindre confiance.
+Les dirigeants de PricewaterhouseCoopers Luxembourg l'ont compris mieux que personnes et ont digitaliser l'entreprise pour pouvoir resoudre les nouveaux enjeux lie au donnees,
+c'est pour cela qu'ils ont investis en consequent pour que dans le futur toutes les donnees qu'ils recuperents soit analyser et utiliser en internes pour limiter
+la fuite de donnees qui sont de plus en plus sensible.
 
-De plus PwC Luxembourg doivent rivaliser avec trois autres entreprises qui forment le Big Four ou Fat Fiur, Ernst&Young, KPMG et Deloitte, ce sont ses principaux 
-rivaux qui ont des activités et réputations similaire
+De plus, PricewaterhouseCoopers doit rivaliser avec trois autres entreprises qui forment le Big Four, Ernst&Young, KPMG et Deloitte, ce sont leurs principaux rivaux qui ont des activités et
+réputations similaire.
 
-J'ai donc eu l'opportunité de me joindre aux équipes Data Science et Business Intelligence du departement Data Factory de PwC Luxembourg pour découvrir ce domaine
-et ainsi que le fonctionnement d'une équipe d'informatique dans une société aussi importante que PwC qui traite ses problématiques actuelles et futures`
+J'ai donc eu la chance de pouvoir rejoindre l'equipe Data Science puis Business Intelligence du departement Data Factory de PricewaterhouseCoopers Luxembourg pour découvrir le fonctionnement
+d'une équipe d'informatique dans une société aussi importante que PricewaterhouseCoopers.`
 
 const Introduction = ({ closeMobileMenu }) => {
     return (

@@ -15,3 +15,4 @@ Si vous changez du code cela sera automatiquement rafraichis dans votre navigate
 ### `npm run build`
 
 Commande à executez apres un push qui permet d'actualiser le site sur github pages et permet au site d'être visible online via le lien [https://antoinezk.github.io/InternshipReport/](https://antoinezk.github.io/InternshipReport/)
+

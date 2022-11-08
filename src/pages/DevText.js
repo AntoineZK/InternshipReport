@@ -1,7 +1,9 @@
+const Contexte = ``
+
 const Gbl = `PricewaterhouseCoopers autrement appele PwC est un réseau britannique d'envergure mondiale
 principalement specialise dans l'audit, le conseil, la comptabilité et la fiscalité.
 
-Pres de 270 000 personnes travaillent pour PwC dans 187 pays. Pwc se trouve etre un des quatres
+Pres de 270 000 personnes travaillent pour PwC dans 187 pays. PwC se trouve etre un des quatres
 grands cabinet d'audit et de conseil surnomme "Big Four" ou "Fat Four" avec Deloitte, Ernst & Young et KPMG.
 
 PwC est né en 1998 des fusions successives des acteurs britanniques historiques de ce
@@ -22,7 +24,7 @@ Origine :
 
     - 1929 : ouverture du bureau de Coopers & Lybrand à Paris
 
-    - 1957 : Coopers & Lybrand International est créé par l’association de Cooper Brothers & Co (Royaume-Uni)
+    - 1957 : Coopers & Lybrand International est créé par l'association de Cooper Brothers & Co (Royaume-Uni)
             avec Lybrand, Ross Bros & Montgomery (États-Unis) et McDonald, Currie & Co (Canada)
 
     - 1997 (septembre) : Coopers & Lybrand et Price Waterhouse annoncent leur projet de rapprochement
@@ -32,12 +34,11 @@ Origine :
 
     - 1998 : lancement de PricewaterhouseCoopers après autorisation du rapprochement par la Commission européenne
 
-    - 2002 (octobre) : PwC vend l’ensemble de sa branche conseil à IBM pour $3,9 milliards.
+    - 2002 (octobre) : PwC vend l'ensemble de sa branche conseil à IBM pour $3,9 milliards.
 
-    - 2009 : PwC annonce l’acquisition de Paragon Consulting Group et Bearing Point.
+    - 2009 : PwC annonce l'acquisition de Paragon Consulting Group et Bearing Point.
 
-    - 2010 : La marque de la société devient PwC.
-`
+    - 2010 : La marque de la société devient PwC.`
 
 const Lux = `PwC Luxembourg est le plus grand cabinet de services professionnels au Luxembourg avec plus de 3000 employe
 de 82 pays differents. PwC Luxembourg fournit des services d'audit, de fiscalité et de conseil, notamment des conseils en 
@@ -47,9 +48,9 @@ Luxembourg et de la Grande Région. La firme aide leurs clients a leur faire obt
 lisse et non brut`
 
 const EnvWork = `PwC Luxembourg se situe actuelement ans dans le batiment nommé Crystal Park.
-Ce batiment de plus de 45 000m^2 rassemble la plupart des collaborateurs de PwC luxembourg,
+Ce batiment de plus de 45 000 mêtre carre rassemble la plupart des collaborateurs de PwC luxembourg,
 ce batiment possede tout ce qui faut pour etre a l'aise pour travailler aussi bien une salle de repos,
-qu'une cantine, cuisine, salle de reunion.`
+qu'une cantine, cuisine, salle de reunion, salle de sport.`
 
 const EnvWork2 = `A Crystal Park nous travaillons en open space ce qui permet d'etre assez libre 
 et d'avoir un échange constant et recurrent avec nos collegues. Il s'agit du point qui m'a le plus 
