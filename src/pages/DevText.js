@@ -1,4 +1,4 @@
-const Contexte = ``
+// const Contexte = ``
 
 const Gbl = `PricewaterhouseCoopers autrement appele PwC est un réseau britannique d'envergure mondiale
 principalement specialise dans l'audit, le conseil, la comptabilité et la fiscalité.
@@ -40,13 +40,43 @@ Origine :
 
     - 2010 : La marque de la société devient PwC.`
 
-const Lux = `PwC Luxembourg est le plus grand cabinet de services professionnels au Luxembourg avec plus de 3000 employe
-de 82 pays differents. PwC Luxembourg fournit des services d'audit, de fiscalité et de conseil, notamment des conseils en 
-gestion, des transactions, des financements et des conseils réglementaires de plus la firme donne des conseils to une grande 
-variete de client,des entrepreneurs locaux et du marché intermédiaire aux grandes entreprises multinationales opérant à partir du
-Luxembourg et de la Grande Région. La firme aide leurs clients a leur faire obtenir la valeur qu'ils veulent en contribuant de facon 
-lisse et non brut`
+const Lux = `PwC Luxembourg est le plus grand cabinet de services professionnels au Luxembourg avec plus de 3 100 personnes employées dans 85 pays différents.
+PwC Luxembourg fournit des services d'audit, de fiscalité et de conseil, notamment des conseils en gestion, des transactions, des financements et des conseils réglementaires.
+Le cabinet fournit des conseils à une grande variété de clients allant des entrepreneurs locaux et du marché intermédiaire aux grandes entreprises multinationales opérant à partir du Luxembourg
+et de la Grande Région.
+Le cabinet aide ses clients à créer la valeur qu'ils recherchent en contribuant au bon fonctionnement des marchés des capitaux et en fournissant des conseils selon une approche axée sur
+l'industrie
 
+PwC Luxembourg est un membre de la firme PwC International Limited ("PwC IL").
+Tous les membres de la firme PwC sont des entités juridiques distinctes qui delivrent leur services localement et internationallement en engagement d'aucune facon la responsabilite PwC IL
+Les responsabilités supplémentaires que nos partenaires assument au niveau mondial garantissent un échange continu entre le cabinet luxembourgeois et le réseau mondial de PwC.
+Ce concept d'information partagée entre les régions, les compétences et les industries pour développer des solutions précieuses pour nos clients fait partie intégrante de la culture
+de notre entreprise.
+
+PwC Luxembourg et le neuvieme employeurs du luxembourg d'apres des statistiques de statistiques.public.lu, la moyenne d'age au sein de la firme et de 31 ans avec environ 700 nouvelle
+personne embauche chaque annee.
+`
+
+const Lux2 = `Les activités de PwC Luxembourg sont composes de 4 secteurs :
+
+Assurance : PwC garantit la performance financière et les activités des entreprises clientes.
+    Elle aide également les entreprises à améliorer leurs rapports financiers et à s'adapter aux
+    Nouvelles règlementations financières.
+
+Tax : PwC aide les entreprises et les particuliers à adopter la meilleure stratégie fiscale les
+    concernant. Elle traite divers dossiers, liés par exemple au business, à la stratégie, aux
+    ressources humaines et aux organisations.
+
+Conseil (Advisory) : Pour répondre au mieux aux défis divers et variés que rencontrent ses
+    clients aujourd'hui, la société s'appuie sur une grande variété de compétences et
+    d'expériences de la part de ses consultants. Le conseil cherche à créer de la valeur chez ses
+    clients et à se différencier de la concurrence par son expertise.
+
+Internal firm Services : PwC disposent de différents services internes qui ont pour mission de
+    gérer les tâches administratives liées aux activités et aider dans la gestion des métiers. En
+    d'autres mots, ce sont des services internes qui créent et maintiennent des processus afin de
+    faciliter les équipes des autres secteurs dans leur travail.
+`
 const EnvWork = `PwC Luxembourg se situe actuelement ans dans le batiment nommé Crystal Park.
 Ce batiment de plus de 45 000 mêtre carre rassemble la plupart des collaborateurs de PwC luxembourg,
 ce batiment possede tout ce qui faut pour etre a l'aise pour travailler aussi bien une salle de repos,
@@ -95,4 +125,4 @@ par  Nathanael Vandenberghe mon second chef d'equipe.
 
 IFS = Internal Firm Services`
 
-export { Gbl, EnvWork, EnvWork2, InfOut, CDO, CDO2, Lux }
+export { Gbl, EnvWork, EnvWork2, InfOut, CDO, CDO2, Lux, Lux2 }
