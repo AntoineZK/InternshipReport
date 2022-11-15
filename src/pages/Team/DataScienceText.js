@@ -1,19 +1,9 @@
-const outils = `Au cours de ce stage et des projets realise dans l'equipe data science j'ai pu apprendre a utiliser de nombreux outils, notamment Microsoft Visual Studio que ca
-soit la version la plus recente ou celle de 2019, Visual Studio est une suite de logiciel de developpement destine a windows et macOs et developpe par Microsoft, Visual Studio
-2022 est un Environnement de Developpement Intégré autrement appelle IDE qui perment de coder notamment en C# language principal que j'ai utilise avec cette equipe.
+const Objectif = `L'objectif de l'equipe data science et de gere des projets d'Intelligence Artificiel, de Machine Learning et de l'analyse de données a travers des
+visualisations interactive et soutenue par des modeles de donnees statistiques.
 
-J'ai aussi appris a utiliser Azure Devops, Azure DevOps est un produits Mircosoft qui fournit le controle sur de multiples choses, comme la gestion de projets, le gestions des
-exigences, des tests automatise, des dossier git, la gestions des "releases" et de multiples autre fonctionnalites qui couvre l'entierte du cycle de développement
-d'une application et ajoute la partie DevOps qui elle est la partie qui fournit un developpement continu avec une haute qualite logiciel.
+Cette equipe a la capacite de supporter votre machine learning ou votre analyse de donne que ce soit en internes ou pour des clients`
 
-De plus j'ai appris a utiliser Microsoft Azure est un gestionnaire cloud d'applications creer par Microsoft, Azure fournit Il fournit des logiciels en tant que service,
-une plate-forme en tant que service et une infrastructure en tant que service et prend en charge de nombreux langages de programmation, outils y compris des logiciels et 
-des systèmes spécifiques à Microsoft et tiers.
-
-Enfin le dernier outils que j'ai appris a utiliser fut SQL Server Management Studio ou SSMS est un logiciel lui aussi developper par Microsoft qui permet de gerer, configuer
-et administrer tous les composants de Microsoft SQL Server et donc de gerer toutes les bases de donnees avec du language SQL.`
-
-const project = `Lors de mon travail dans l'equipe DataScience j'ai pu travailler sur de multiples projets tous assez differents les uns des autres
+const Projet = `Lors de mon travail dans l'equipe DataScience j'ai pu travailler sur de multiples projets tous assez differents les uns des autres
 
 Scheduler : Ce projet consitait a migrer un framework C# de la version 4.6.1 jusque la 4.8.0 pour permettre a l'equipe de pouvoir continuer de travailler tout en restant a jour
 etant donner que le framekwork 4.6.1 va bientot etre "perime" et donc sans mise a jour ni resolution des problemes, ensuite j'ai du faire des tests unitaires pour tester leurs
@@ -49,4 +39,25 @@ et pour me faciliter la tache une seul personnes sur des centaines de liens a re
 quoi j'ai pris autant de temps pour trouver la reponse au probleme, le reste des problemes furent mineur, tel que des problemes d'acces via l'IP de pwc mais
 pas plus.`
 
-export { outils, project, DiffRen }
+const ConAcq = `Grace a ce stage et ma participation pendant 3 mois dans cette equipe j'ai compris et obtenu ennormement de competences notamment grace aux outils qu'ils utilisent :
+
+Dans un premier temps j'ai appris et compris comment utiliser du C#, language de programmtion que je n'avais que tres peu utiliser dans des projets personnels, pour justement
+m'entrainer a l'utilser durant ce stage ce qui fut utile, de plus j'ai compris le principe de framework .NET ce qui m'a permis de comprendre pourquoi et comment je devais realiser
+un projets que j'avais a faire. Enfin l'utilisation du C# m'a permis de developper mes competenses en language oriente objet ce qui va notamment m'aider lors de mon deuxieme
+semestre a Epitech, tout en me forcant a utiliser Visual Studio qui est une suite de logiciel de developpement destine a windows et macOs, developpe par Microsoft, Visual Studio
+2022 est un Environnement de Developpement Intégré autrement appelle IDE qui perment de coder notamment en C# ou en C++.
+
+Dans un second temps j'ai appris et compris comment utilser Azure, Microsoft Azure est un gestionnaire cloud d'applications creer par Microsoft, Azure fournit Il fournit des logiciels en tant que service,
+une plate-forme en tant que service et une infrastructure en tant que service et prend en charge de nombreux langages de programmation, outils y compris des logiciels et 
+des systèmes spécifiques à Microsoft et tiers.
+
+Dans un troisieme temps j'ai appris comment utiliser Azure DevOps, Azure DevOps est un produits Mircosoft qui fournit le controle sur de multiples choses, comme la gestion de projets, le gestions des
+exigences, des tests automatise, des dossier git, la gestions des "releases" et de multiples autre fonctionnalites qui couvre l'entierte du cycle de développement
+d'une application et ajoute la partie DevOps qui elle est la partie qui fournit un developpement continu avec une haute qualite logiciel.
+
+Enfin, j'ai pu acquérir d'autres compétences que des compétences techniques, des softs skills telle que la communication au sein de l'equipe, l'adaptabilite, la flexibilite,
+et le travail d'equipe.`
+
+const Apport = ``
+
+export { Objectif, Projet, DiffRen, ConAcq, Apport }

@@ -21,8 +21,8 @@ la fuite de donnees qui sont de plus en plus sensible.
 De plus, PricewaterhouseCoopers doit rivaliser avec trois autres entreprises qui forment le Big Four, Ernst&Young, KPMG et Deloitte, ce sont leurs principaux rivaux qui ont des activités et
 réputations similaire.
 
-J'ai donc eu la chance de pouvoir rejoindre l'equipe Data Science puis Business Intelligence du departement Data Factory de PricewaterhouseCoopers Luxembourg pour découvrir le fonctionnement
-d'une équipe d'informatique dans une société aussi importante que PricewaterhouseCoopers.`
+J'ai donc eu la chance de pouvoir rejoindre l'equipe Data Science puis Business Intelligence du services Data Factory du departement Central Data Office
+de PricewaterhouseCoopers Luxembourg pour découvrir le fonctionnement d'une équipe d'informatique dans une société aussi importante que PricewaterhouseCoopers.`
 
 const Introduction = ({ closeMobileMenu }) => {
     return (

@@ -117,7 +117,22 @@ qui sont dédié au differents metier du réseaux, pour citer les plus important
 
 const CDO = `Dans ce stage j'ai eu la chance de travailler avec deux differentes equipes les deux se trouvant dans le departement Central Data Office
 souvent abreger en CDO, la mission de ce departement consiste a transformer la firme PwC en une firme data-compatible sous la supervision d'une nouvelle
-Equipe de gestion de donne qui represente les differentes parties relie au Data.`
+Equipe de gestion de donne qui represente les differentes parties relie au Data.
+
+Les défis du departement sont de :
+
+    - Développez le potentiel des données generer par PwC et leurs clients.
+    
+    - Réaliser une analyse efficace qui impacte la prise de décision stratégique et augmente la rentabilité de l'entreprise.
+
+    - Etablir des fonctions de gestions de données.
+
+    - Etre dans les leaders dans la gestions de data en faisant des partenariats avec des Leaders de L'IT.
+
+Et les taches du departement sont de : 
+
+    - 
+    `
 
 const CDO2 = `Le services dans lequel j'ai travailler durant tous mon stage s'appelle Data Factory dirige par Eric FRANCOIS en tant que Manager,
 Data Factory comporte de multiple equipe dont notamment Data Science dirige par Joseph EMERAS mon premier chef d'equipe ainsi que Reporting - Dashboarding dirige
