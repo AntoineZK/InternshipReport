@@ -6,7 +6,7 @@ Cette equipe a la capacite de supporter votre machine learning ou votre analyse 
 const Projet = `Lors de mon travail dans l'equipe DataScience j'ai pu travailler sur de multiples projets tous assez differents les uns des autres
 
 Scheduler : Ce projet consitait a migrer un framework C# de la version 4.6.1 jusque la 4.8.0 pour permettre a l'equipe de pouvoir continuer de travailler tout en restant a jour
-etant donner que le framekwork 4.6.1 va bientot etre "perime" et donc sans mise a jour ni resolution des problemes, ensuite j'ai du faire des tests unitaires pour tester leurs
+etant donner que le framekwork 4.6.1 va bientot etre "obsolète" et donc sans mise a jour ni resolution des problemes, ensuite j'ai du faire des tests unitaires pour tester leurs
 fonctions deja existantes pour etre sur que aux fur a mesures des fonctions et donc des modifications aucun probleme peut arriver au fonctions generiques qu'ils ont creer.
 
 RBE : Le second projet est bien different du premier deja comparer au premier j'ai du commencer ce projet de 0, donc pas de base sur lesquels m'aider mais en contrepartie une 
@@ -22,7 +22,7 @@ le web scrapping, notamment en passant de puppeteersharp a seleniumsharp
 
 CSSF : Enfin mon dernier gros projet etait lui aussi du web scrapping, car il consistait a la encore aller sur un site et de parcourirs des centaines de pages
 puis de recuperer des donnees dans ces meme pages pour ensuite les envoyers dans une partie database que j'ai du gerer et apres avoir mis toutes ces donnee
-dans la database de creer fichier excel qui recuperer toutes ces donnees en faisant des liaisons entre les differentes tables de la database.`
+dans la database de creer un fichier excel qui recuperer toutes ces donnees en faisant des liaisons entre les differentes tables de la database.`
 
 const DiffRen = `J'ai recontrer des multiples probleme lors de mes differents projets dans cette equipe, la premiere fut de prendre connaissance sur comment
 realiser telle ou telle chose comme la migration de framework chose que je n'avais jamais fais avant, de plus l'apprentissage du C# malgre que ce soit tres
@@ -58,6 +58,15 @@ d'une application et ajoute la partie DevOps qui elle est la partie qui fournit 
 Enfin, j'ai pu acquérir d'autres compétences que des compétences techniques, des softs skills telle que la communication au sein de l'equipe, l'adaptabilite, la flexibilite,
 et le travail d'equipe.`
 
-const Apport = ``
+const Apport = `Mon apport est lui pas a sous estiemr, j'ai realiser et participer a 4 projets different tout en faisant des petites taches a coter, le fait que je sois present 
+a permis aux autres membres de l'equipe de realiser des taches differentes et surement plus importantes par exemple la migration du framework C# que j'ai du realiser leur permet
+de pouvoir continuer dessus "sans pause" tout en ne s'inquietant pas du fait que d'un moment a l'autre le framework soit obsolète et donc de devoir faire une pause pour regler le probleme.
+
+De plus mon second projet lui aussi n'est pas a sous estimer, etant du web scrapping, pas toutes l'equipe connaissait et savait comment realiser ce projet tout au plus qu'il fallait
+reussir a trouver comment faire executer ce programme en cloud, heuresement grace a la documentation que j'ai realise en parallele du projet, les futurs membres ou stagiare de l'equipe
+n'auront pas a passer des jours voirs semaines a trouver comment resoudre ce probleme. Puisque le troisieme projet etait sur des bases similaires au second, il y avait la aussi un probleme
+de framework et de compilation en cloud, en effet le probleme de compilation en cloud venait du fait que l'ancienne utilisation du web scrapping se realisait en 4.6 cependant comme je l'ai 
+dit precedamment ce framework allait et sera bientot obsolete donc il fallait l'adapter pour le 4.8.1 framework bien plus recent et qui ne risque pas d'être obsolete prochainnement, mais 
+dans ce cas l'utilisation original du web scrapping fut modifier et donc ce projet aussi a du etre refait quasiment en entierete pour resoudre ce probleme.`
 
 export { Objectif, Projet, DiffRen, ConAcq, Apport }

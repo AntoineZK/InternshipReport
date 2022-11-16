@@ -4,7 +4,7 @@ import { NextPages, TableTeam } from '../../components/Components';
 
 const TwoLink = [
     {style: {color: 'blue'}, link: '/InternshipReport/Developpement'},
-    {style: {color: 'blue'}, link: '/InternshipReport/Conclusion'},
+    {style: {color: 'blue'}, link: '/InternshipReport/DataScience'},
 ];
 
 const TeamText = `Lors de ce stage j'ai eu la chance de travailler dans deux equipes avec de tres bonnes ambiances ainsi que avec des sujets sensiblement different

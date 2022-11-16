@@ -3,7 +3,7 @@ import { NextPages } from '../components/Components';
 import './Style.css'
 
 const TwoLink = [
-    {style: {color: 'blue'}, link: '/InternshipReport/Teams'},
+    {style: {color: 'blue'}, link: '/InternshipReport/BusinessIntelligence'},
     {style: {color: 'grey'}, link: '/'},
 ];
 

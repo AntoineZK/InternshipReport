@@ -93,8 +93,8 @@ m aider et partager leurs connaissances ce qui a encore plus faciliter mon integ
 De plus PwC nous met a notre disposition un pc avec tous les outils numerique propre a PwC ainsi
 qu'un casque, souris et sacoche.
 
-A nos poste de travail on possede deux ecrans qui peuvent etre relie aux pc de PwC pour pouvoir nous
-faire un setup a 3 ecran.`
+A nos poste de travail on possede deux ecrans qui peuvent etre relie aux pc de PwC pour pouvoir travailler confortablement
+avec trois ecrans.`
 
 const InfOut = `
 A PwC pres de 100% des outils informatiques sont gere en interne, il en existe plusieurs dizaines d'applications 
@@ -131,8 +131,18 @@ Les défis du departement sont de :
 
 Et les taches du departement sont de : 
 
-    - 
-    `
+    - Construire au sein de la firme un processus de donnée lié aux besoin de la firme
+    
+    - Assurer l'intégrité des données grâce à divers processus d'assurance qualité des données pris en charge par les disciplines de gouvernance des données
+
+    - Centraliser, nettoyer, analyser et valoriser toutes les informations que nous et nos clients collectons et générons
+
+    - Utiliser de nouvelles technologies, des solutions intelligentes et innovantes, en utilisant des techniques d'exploration de données, de Business Intelligence et de Big Data pour libérer
+      le potentiel des données
+
+    - Respecter le cadre réglementaire.
+
+Ce sont pour cette raison que le CDO est la pierre angulaire dans la transformaton de donnée et l'optimasation de processus`
 
 const CDO2 = `Le services dans lequel j'ai travailler durant tous mon stage s'appelle Data Factory dirige par Eric FRANCOIS en tant que Manager,
 Data Factory comporte de multiple equipe dont notamment Data Science dirige par Joseph EMERAS mon premier chef d'equipe ainsi que Reporting - Dashboarding dirige

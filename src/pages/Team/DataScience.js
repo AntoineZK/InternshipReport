@@ -1,11 +1,11 @@
 import React from 'react'
 import '../Style.css'
 import { NextPages } from '../../components/Components';
-import { Apport, ConAcq, DiffRen, Objectif, Projet } from './DataScienceText';
+import { Apport, ConAcq, DiffRen, Objectif, Projet } from './DSText';
 
 const TwoLink = [
     {style: {color: 'blue'}, link: '/InternshipReport/Teams'},
-    {style: {color: 'grey'}, link: '/'},
+    {style: {color: 'blue'}, link: '/InternshipReport/BusinessIntelligence'},
 ];
 
 const DataScience = ({ closeMobileMenu }) => {
@@ -16,9 +16,9 @@ const DataScience = ({ closeMobileMenu }) => {
                 {/* <div id='DS_Contexte'>
                     <h2 className='DS_Text'>Contexte</h2>
                 </div> */}
-                <div id='DS_Prob'>
+                {/* <div id='DS_Prob'>
                     <h2 className='DS_Text'>Problématique</h2>
-                </div>
+                </div> */}
                 <div id='DS_Objectif'>
                     <h2 className='DS_Text'>Objectif</h2>
                     <p className='paragraph'>{Objectif}</p>
@@ -40,7 +40,7 @@ const DataScience = ({ closeMobileMenu }) => {
                     <p className='paragraph'>{Apport}</p>
                 </div>
             </main>
-            <NextPages closeMobileMenu={closeMobileMenu} TwoLink={TwoLink} Status={3}/>
+            <NextPages closeMobileMenu={closeMobileMenu} TwoLink={TwoLink} Status={2}/>
         </div>
     );
 }
