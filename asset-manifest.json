@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/InternshipReport/static/css/main.a16af3e5.css",
-    "main.js": "/InternshipReport/static/js/main.35c756ab.js",
+    "main.js": "/InternshipReport/static/js/main.487ae263.js",
     "static/media/booking.png": "/InternshipReport/static/media/booking.8e1dbac4e1788b3f5dae.png",
     "static/media/piwic.png": "/InternshipReport/static/media/piwic.8a3473cb143d06ce39d6.png",
     "static/media/workday.png": "/InternshipReport/static/media/workday.edb07584279901c242d5.png",
@@ -9,13 +9,14 @@
     "static/media/pwcCP.jpg": "/InternshipReport/static/media/pwcCP.545f84742fd4e189cdb2.jpg",
     "static/media/Organigramme.png": "/InternshipReport/static/media/Organigramme.4d9b1b35ad69f084cc7b.png",
     "static/media/pwcCP2.jpg": "/InternshipReport/static/media/pwcCP2.a92a420e0c3ec467b4e8.jpg",
+    "static/media/statPwCGrowth.png": "/InternshipReport/static/media/statPwCGrowth.bfd16ab8f5b3f60b4ba8.png",
     "static/media/pwc.png": "/InternshipReport/static/media/pwc.f3157821d3956b866d50.png",
     "index.html": "/InternshipReport/index.html",
     "main.a16af3e5.css.map": "/InternshipReport/static/css/main.a16af3e5.css.map",
-    "main.35c756ab.js.map": "/InternshipReport/static/js/main.35c756ab.js.map"
+    "main.487ae263.js.map": "/InternshipReport/static/js/main.487ae263.js.map"
   },
   "entrypoints": [
     "static/css/main.a16af3e5.css",
-    "static/js/main.35c756ab.js"
+    "static/js/main.487ae263.js"
   ]
 }
