@@ -4,7 +4,7 @@ import './Style.css'
 
 const TwoLink = [
     {style: {color: 'blue'}, link: '/InternshipReport/BusinessIntelligence'},
-    {style: {color: 'grey'}, link: '/'},
+    {style: {color: 'grey', cursor: 'default'}, link: '/InternshipReport/EasterEgg'},
 ];
 
 const Conclusion = ({ closeMobileMenu }) => {
@@ -14,7 +14,7 @@ const Conclusion = ({ closeMobileMenu }) => {
                 <h1 className='title'>Conclusion</h1>
                 <a href="/pwc.png" download>Download my Resume!</a>
             </main>
-            <NextPages closeMobileMenu={closeMobileMenu} TwoLink={TwoLink} Status={3}/>
+            <NextPages closeMobileMenu={closeMobileMenu} TwoLink={TwoLink} Status={2}/>
         </div>
     );
 }

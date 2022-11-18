@@ -127,3 +127,42 @@
     margin-top: 12vh;
     margin-bottom: 12vh;
 }
+
+.days {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 8vh;
+    color: blue;
+    font-size: large;
+}
+
+
+.hours {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 8vh;
+    color: red;
+    font-size: large;
+}
+
+
+.minutes {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 8vh;
+    color: green;
+    font-size: large;
+}
+
+
+.seconds {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 8vh;
+    color: brown;
+    font-size: large;
+}

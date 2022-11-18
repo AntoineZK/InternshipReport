@@ -19,7 +19,7 @@ const TwoLink = [
 const Developpement = ({ closeMobileMenu }) => {
     return (
         <div>
-            <main>¨
+            <main>
                 <h1 className='title'>Developpement</h1>
                 <div id='PwC_Contexte'>
                     <h2 className='PwC_Text'>Contexte</h2>
