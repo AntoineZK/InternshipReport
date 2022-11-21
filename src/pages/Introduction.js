@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { NextPages } from '../components/Components';
 import './Style.css'
 
@@ -25,6 +25,9 @@ J'ai donc eu la chance de pouvoir rejoindre l'equipe Data Science puis Business 
 de PricewaterhouseCoopers Luxembourg pour découvrir le fonctionnement d'une équipe d'informatique dans une société aussi importante que PricewaterhouseCoopers.`
 
 const Introduction = ({ closeMobileMenu }) => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <div>
             <main>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PwC_Logo from '../assets/pwc.png'
 import Tek_Logo from '../assets/tek.png'
 import { NextPages } from '../components/Components';
@@ -10,6 +10,9 @@ const TwoLink = [
 ];
 
 const Home = ({ closeMobileMenu }) => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 	return (
         <div>
             <main>

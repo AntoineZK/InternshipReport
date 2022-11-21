@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { NextPages } from '../components/Components';
 import './Style.css'
 
@@ -22,6 +22,9 @@ const epitech =
 qualité de leur enseignement qui a grandement contribué au bon déroulement de mon stage.`
 
 const Remerciements = ({ closeMobileMenu }) => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <div>
             <main>

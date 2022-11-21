@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../Style.css'
 import { NextPages } from '../../components/Components';
 import { Apport, ConAcq, DiffRen, Objectif, Projet } from './DSText';
@@ -9,6 +9,9 @@ const TwoLink = [
 ];
 
 const DataScience = ({ closeMobileMenu }) => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <div>
             <main>

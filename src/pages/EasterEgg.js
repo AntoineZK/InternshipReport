@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Countdown from 'react-countdown';
 import './Style.css'
 
 const EasterEgg = () => {
     let date = new Date('Mon Dec 19 2022 16:30:00 GMT+01')
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <div>
             <main>

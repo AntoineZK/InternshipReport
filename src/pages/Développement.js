@@ -10,6 +10,7 @@ import TimeAndExp from '../assets/timeandex.png'
 import statGrowth from '../assets/statPwCGrowth.png'
 import { EnvWork, EnvWork2, Gbl, InfOut, CDO, CDO2, Lux, Lux2 } from './DevText';
 import { NextPages } from '../components/Components';
+import { useEffect } from 'react';
 
 const TwoLink = [
     {style: {color: 'blue'}, link: '/InternshipReport/Introduction'},
@@ -17,13 +18,16 @@ const TwoLink = [
 ];
 
 const Developpement = ({ closeMobileMenu }) => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <div>
             <main>
                 <h1 className='title'>Developpement</h1>
-                <div id='PwC_Contexte'>
+                {/* <div id='PwC_Contexte'>
                     <h2 className='PwC_Text'>Contexte</h2>
-                </div>
+                </div> */}
                 <div id='PwC_Global'>
                     <h2 className='PwC_Text'>PwC Global</h2>
                     <p className='paragraph'>{Gbl}</p>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Style.css'
 // import { NavLink as Link } from 'react-router-dom';
 import { NavHashLink as Link } from 'react-router-hash-link';
@@ -44,6 +44,9 @@ function Section({ closeMobileMenu }) {
 	const handleClick = () => setClick(!click);
     const [click2, setClick2] = React.useState(false);
 	const handleClick2 = () => setClick2(!click2);
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <ul style={{textAlign: 'center', marginTop: '7vh'}}>
             {plan.map((value, index) => (
