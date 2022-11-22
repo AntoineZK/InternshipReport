@@ -10,10 +10,10 @@ const EasterEgg = () => {
     return (
         <div>
             <main>
-                <h1 className='title' style={{marginBottom: '3vh'}}>La Fin de L'Enfer dans <i className="fa-regular fa-clock"></i></h1>
+                <h1 className='title' style={{marginBottom: '3vh'}}>La Fin du Stage dans <i className="fa-regular fa-clock"></i></h1>
                     <Countdown
                         date={date}
-                        renderer={({ days, hours, minutes, seconds, milliseconds }) => {
+                        renderer={({ days, hours, minutes, seconds }) => {
                             return (
                                 <div>
                                     <p className='days'>{days} Jours, {hours} Heures, {minutes} Minutes, {seconds} Secondes</p>

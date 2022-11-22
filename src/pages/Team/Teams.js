@@ -12,7 +12,7 @@ avec l'equipe DataScience puis 3 mois du 1er Octobre jusqu'au 31 Décembre avec 
 leurs outils utilise.
 Cependant ces deux equipe ont le point commun d'avoir une ambiance de travail excellente qui a facilite mon integration au sein de leurs équipes.
 De plus chaque equipe a un domaine different ce qui m'a permis de tester different types de projet, dans la premiere equipe, de la recuperation et utilsation de donnee via du WebScrapping et 
-dans la deuxieme equipe de la gestion de base de donnee pour résoudre des incidents declare par des membres de l'entreprise.`
+dans la deuxieme equipe de la gestion de base de donnee pour résoudre des incidents déclaré par des membres de l'entreprise.`
 
 const Teams = ({ closeMobileMenu }) => {
     useEffect(() => {

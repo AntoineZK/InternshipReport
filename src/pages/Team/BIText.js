@@ -21,8 +21,20 @@ const Projet = `Lors de mes 3 mois dans l'équipe Business Intelligence j'ai tra
 
 const DiffRen = ``
 
-const ConAcq = ``
+const ConAcq = `Grace aux trois mois realise dans l'equipe business Intelligence, j'ai appris plusieurs chose notamment sur la partie SQL, comme des realisations de query avec 
+des jointures chose que je n'avais que jamais fait, de plus j'ai compris et appris a utiliser Microsoft SQL Server Management Studio (SSMS) qui est un logiciel
+developper par Microsoft qui est utilise pour configurer gerer et administrer des composants a l'interieur de Microsoft SQL Server comme des Bases de donnees ainsi que des tables
+et vue.
 
+J'ai aussi appris a utiliser SSIS autrement appele Microsoft SQL Server Integration Services lui aussi développer par Microsoft, SSIS permet de realiser de multiple differebte
+actions comme la creation de Flux qui permet en fonction d'action de transferer automatiquement des Tables, colonnes, bases de donnees d'une plateforme, tout en si nous le
+voulons fusionners, separer ou vider differentes tables, creer un excel et beaucoup d'autre en placant des sortes de composants qui sont regler pour realiser des actions
+predefini.
+
+Tout au long de mon stage j'ai pu participer a des formations qui m'ont permis de comprendre et de pratiquer sur des applications qui dans le futur pourrait me servir comme
+Power BI 
+
+`
 const Apport = ``
 
 export { Objectif, Projet, DiffRen, ConAcq, Apport }
