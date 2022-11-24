@@ -9,8 +9,8 @@ Scheduler : Ce projet consitait a migrer un framework C# de la version 4.6.1 jus
 etant donner que le framekwork 4.6.1 va bientot etre "obsolète" et donc sans mise a jour ni resolution des problemes, ensuite j'ai du faire des tests unitaires pour tester leurs
 fonctions deja existantes pour etre sur que aux fur a mesures des fonctions et donc des modifications aucun probleme peut arriver au fonctions generiques qu'ils ont creer.
 
-RBE : Le second projet est bien different du premier deja comparer au premier j'ai du commencer ce projet de 0, donc pas de base sur lesquels m'aider mais en contrepartie une 
-liberte sur la facon de coder ainsi que comment realiser le projet, Pour realiser ce projet j'ai du utiliser plusieurs outils comme : les fonctions Azures. 
+RBE : Le second projet est bien different du premier deja comparer au premier j'ai du commencer ce projet de 0, donc pas de base sur lesquels m'aider mais en contrepartie une
+liberte sur la facon de coder ainsi que comment realiser le projet, Pour realiser ce projet j'ai du utiliser plusieurs outils comme : les fonctions Azures.
 Les fonctions Azure sont un concept sans serveur de conception native cloud qui permet à un morceau de code de se déployer et de s'exécuter sans avoir
 besoin d'infrastructure de serveur, de serveur Web ou de toute autre configuration. Le second outils c'est le web scrapping, le web scrapping consiste en extraire des donnees d0un
 site internet puis les exporters dans un format plus utiles pour les utilisateurs comme le json ou l'excel par exemple. Le projet consistait en recuperer
@@ -26,7 +26,7 @@ dans la database de creer un fichier excel qui recuperer toutes ces donnees en f
 
 const DiffRen = `J'ai recontrer des multiples probleme lors de mes differents projets dans cette equipe, la premiere fut de prendre connaissance sur comment
 realiser telle ou telle chose comme la migration de framework chose que je n'avais jamais fais avant, de plus l'apprentissage du C# malgre que ce soit tres
-proche du C il y a quand meme beaucoup de difference sur certains petit point notamment niveau syntaxe. Le web scrapping etait aussi une nouvelle connaissance 
+proche du C il y a quand meme beaucoup de difference sur certains petit point notamment niveau syntaxe. Le web scrapping etait aussi une nouvelle connaissance
 pour moi, l'apprentissage du concept de web scrapping, comment le realise, apprendre les differentes libraries les faires fonctionner en local et en cloud
 dans le meme temps, utiliser les azures fonctions et azure en general. Par exemple le probleme que j'ai passer le plus de temps fut de faire executer
 ma fonctions azure en cloud avec les libraries de web scrapping puisque pour executer puppeteer il faut un composants appeleer chromedriver, chose qu'il
@@ -48,7 +48,7 @@ semestre a Epitech, tout en me forcant a utiliser Visual Studio qui est une suit
 2022 est un Environnement de Developpement Intégré autrement appelle IDE qui perment de coder notamment en C# ou en C++.
 
 Dans un second temps j'ai appris et compris comment utilser Azure, Microsoft Azure est un gestionnaire cloud d'applications creer par Microsoft, Azure fournit Il fournit des logiciels en tant que service,
-une plate-forme en tant que service et une infrastructure en tant que service et prend en charge de nombreux langages de programmation, outils y compris des logiciels et 
+une plate-forme en tant que service et une infrastructure en tant que service et prend en charge de nombreux langages de programmation, outils y compris des logiciels et
 des systèmes spécifiques à Microsoft et tiers.
 
 Dans un troisieme temps j'ai appris comment utiliser Azure DevOps, Azure DevOps est un produits Mircosoft qui fournit le controle sur de multiples choses, comme la gestion de projets, le gestions des
@@ -58,15 +58,15 @@ d'une application et ajoute la partie DevOps qui elle est la partie qui fournit 
 Enfin, j'ai pu acquérir d'autres compétences que des compétences techniques, des softs skills telle que la communication au sein de l'equipe, l'adaptabilite, la flexibilite,
 et le travail d'equipe.`
 
-const Apport = `Mon apport est lui pas a sous estiemr, j'ai realiser et participer a 4 projets different tout en faisant des petites taches a coter, le fait que je sois present 
+const Apport = `Mon apport est lui pas a sous estiemr, j'ai realiser et participer a 4 projets different tout en faisant des petites taches a coter, le fait que je sois present
 a permis aux autres membres de l'equipe de realiser des taches differentes et surement plus importantes par exemple la migration du framework C# que j'ai du realiser leur permet
 de pouvoir continuer dessus "sans pause" tout en ne s'inquietant pas du fait que d'un moment a l'autre le framework soit obsolète et donc de devoir faire une pause pour regler le probleme.
 
 De plus mon second projet lui aussi n'est pas a sous estimer, etant du web scrapping, pas toutes l'equipe connaissait et savait comment realiser ce projet tout au plus qu'il fallait
 reussir a trouver comment faire executer ce programme en cloud, heuresement grace a la documentation que j'ai realise en parallele du projet, les futurs membres ou stagiare de l'equipe
 n'auront pas a passer des jours voirs semaines a trouver comment resoudre ce probleme. Puisque le troisieme projet etait sur des bases similaires au second, il y avait la aussi un probleme
-de framework et de compilation en cloud, en effet le probleme de compilation en cloud venait du fait que l'ancienne utilisation du web scrapping se realisait en 4.6 cependant comme je l'ai 
-dit precedamment ce framework allait et sera bientot obsolete donc il fallait l'adapter pour le 4.8.1 framework bien plus recent et qui ne risque pas d'être obsolete prochainnement, mais 
+de framework et de compilation en cloud, en effet le probleme de compilation en cloud venait du fait que l'ancienne utilisation du web scrapping se realisait en 4.6 cependant comme je l'ai
+dit precedamment ce framework allait et sera bientot obsolete donc il fallait l'adapter pour le 4.8.1 framework bien plus recent et qui ne risque pas d'être obsolete prochainnement, mais
 dans ce cas l'utilisation original du web scrapping fut modifier et donc ce projet aussi a du etre refait quasiment en entierete pour resoudre ce probleme.`
 
 export { Objectif, Projet, DiffRen, ConAcq, Apport }

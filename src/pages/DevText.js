@@ -82,9 +82,9 @@ Ce batiment de plus de 45 000 mêtre carre rassemble la plupart des collaborateu
 ce batiment possede tout ce qui faut pour etre a l'aise pour travailler aussi bien une salle de repos,
 qu'une cantine, cuisine, salle de reunion, salle de sport.`
 
-const EnvWork2 = `A Crystal Park nous travaillons en open space ce qui permet d'etre assez libre 
-et d'avoir un échange constant et recurrent avec nos collegues. Il s'agit du point qui m'a le plus 
-choquee lors de mon arrivee et ce qui m'a permis de m'integrer tres rapidement dans les 
+const EnvWork2 = `A Crystal Park nous travaillons en open space ce qui permet d'etre assez libre
+et d'avoir un échange constant et recurrent avec nos collegues. Il s'agit du point qui m'a le plus
+choquee lors de mon arrivee et ce qui m'a permis de m'integrer tres rapidement dans les
 differentes equipe dans lesquels je suis allé.
 
 Les équipes sont à l écoute, donne des conseils et n'hésite pas à prendre de leur temps pour
@@ -97,17 +97,17 @@ A nos poste de travail on possede deux ecrans qui peuvent etre relie aux pc de P
 avec trois ecrans.`
 
 const InfOut = `
-A PwC pres de 100% des outils informatiques sont gere en interne, il en existe plusieurs dizaines d'applications 
+A PwC pres de 100% des outils informatiques sont gere en interne, il en existe plusieurs dizaines d'applications
 qui sont dédié au differents metier du réseaux, pour citer les plus importantes :
 
     - Piwic : L'intranet de PwC un site ou une application ou se trouve les differents outils.
 
     - Workday : C'est une plateforme ou se trouve toutes nos informations personnelle que nous devons renseigner
-                a notre arriver tel que notre nom, prenom, telephone, RIB etc, c'est aussi ici que nous 
+                a notre arriver tel que notre nom, prenom, telephone, RIB etc, c'est aussi ici que nous
                 pouvons poser des jours de conge ou d'arret maladie etc
 
     - D&R Booking : comme dis precedemment vu que nous travaillons en open space aucune place nous est reserve et
-                    donc nous devons imperativement reserver nos places, nous pouvons reserver nos places jusque 
+                    donc nous devons imperativement reserver nos places, nous pouvons reserver nos places jusque
                     4 semaines avant la semaine de reservation.
 
     - Time and Expenses : C'est la plateforme qui nous permet principalement de mettre a quelle heure nous arrivons
@@ -122,17 +122,17 @@ Equipe de gestion de donne qui represente les differentes parties relie au Data.
 Les défis du departement sont de :
 
     - Développez le potentiel des données generer par PwC et leurs clients.
-    
+
     - Réaliser une analyse efficace qui impacte la prise de décision stratégique et augmente la rentabilité de l'entreprise.
 
     - Etablir des fonctions de gestions de données.
 
     - Etre dans les leaders dans la gestions de data en faisant des partenariats avec des Leaders de L'IT.
 
-Et les taches du departement sont de : 
+Et les taches du departement sont de :
 
     - Construire au sein de la firme un processus de donnée lié aux besoin de la firme
-    
+
     - Assurer l'intégrité des données grâce à divers processus d'assurance qualité des données pris en charge par les disciplines de gouvernance des données
 
     - Centraliser, nettoyer, analyser et valoriser toutes les informations que nous et nos clients collectons et générons

@@ -4,19 +4,18 @@ const Objectif = `L'objectif de l'equipe Business Intelligence et la creation, l
 
 const Projet = `Lors de mes 3 mois dans l'équipe Business Intelligence j'ai travailler sur different projet :
 
-    - Migration ORACLE vers SQL Server : Le but de ce projet etait comme son nom le dit de migrer l'entierete d'application d'Oracle Database vers SQL Server puisque prochainement PwC
+    - Migration ORACLE vers SQL Server : Le but de ce projet etait comme son nom l'indique de migrer l'entierete d'application d'Oracle Database vers SQL Server puisque prochainement PwC
     n'utilisera plus Oracle Database pour des raisons de coup de license qui augmente vu que de moins en moins de firme national PriceWaterHouseCoopers l'augmente et que
     independamment les coups de la licence Oracle est plus hauts, Oracle Database est un systeme de gestion de base de donnee relationelle autrement dit (SGBDR) qui depuis
     l'introduction du modele objet est aussi qualifie de SGBDRO (Système de gestion de base de données relationnel-objet). Pour realiser cette migration il fallait modifier
     les types de certaines donnees, verifier si chaque application etait fonctionnelle, que les donnees etait bien remplie avec les nouveaux types de variable,
     tester si les connecteurs etait bon.
-      
-    - Optimisation Documentum : 
-    
-    - Task / Incident : 
-    
-    - Request For Changes (RFC) : Les RFC
-    
+
+    - Optimisation Documentum : Le but de ce mini projet était d'optimiser des requetes sql pour faire gagner du temps a ces requetes SQL qui auparavent prenait plusieurs heures
+    avec des risques d'erreur lors de l'execution qui forcait a re-executer les requetes et donc faire perdre du temps, grace aux nouvelles requetes realiser sur dqMan puis de
+    remplacer les anciennes requetes mis dans un flux SSIS par les nouvelles tout en verifiant bien que ces requetes soit fonctionnelle et qu'elle permettait de recevoir les
+    même résultat dans un temps beaucoup plus court que celui precedamment 
+
 `
 
 const DiffRen = `Lors de cette partie de stage je me suis confronte a bien plus de difficulte etant donne que c'etait un domaine dont je n'avais que tres peu de connaissance ni
@@ -34,7 +33,7 @@ temps soit etait malade ou en conge
 Enfin dernier probleme un petit plus mineur fut les droits d'acces, etant donnee que j'etais stagiaire mon pc etait configure pour avoir des droits d'acces extrement limite ce qui
 fait que sur certaines requete SQL que je realisais il me manquais des droits sur des tables, vue ou meme base de donnee.`
 
-const ConAcq = `Grace aux trois mois realise dans l'equipe business Intelligence, j'ai appris plusieurs chose notamment sur la partie SQL, comme des realisations de query avec 
+const ConAcq = `Grace aux trois mois realise dans l'equipe business Intelligence, j'ai appris plusieurs chose notamment sur la partie SQL, comme des realisations de query avec
 des jointures chose que je n'avais que jamais fait, de plus j'ai compris et appris a utiliser Microsoft SQL Server Management Studio (SSMS) qui est un logiciel
 developper par Microsoft qui est utilise pour configurer gerer et administrer des composants a l'interieur de Microsoft SQL Server comme des Bases de donnees ainsi que des tables
 et vue.
@@ -43,6 +42,9 @@ J'ai aussi appris a utiliser SSIS autrement appele Microsoft SQL Server Integrat
 actions comme la creation de Flux qui permet en fonction d'action de transferer automatiquement des Tables, colonnes, bases de donnees d'une plateforme, tout en si nous le
 voulons fusionners, separer ou vider differentes tables, creer un excel et beaucoup d'autre en placant des sortes de composants qui sont regler pour realiser des actions
 predefini.
+
+De plus j'ai utiliser dqMan qui est un outil d'administration complet permettant aux utilisateurs d'OpenText Documentum d'administrer, de maintenir et de programmer leur
+serveur de contenu Documentum. Ce qui m'a permis de realiser mon second projet l'optimisation Documentum.
 
 Tout au long de mon stage j'ai pu participer a des formations qui m'ont permis de comprendre et de pratiquer sur des applications qui dans le futur pourrait me servir comme la
 formation Power BI à laquelle j'ai participe. Power BI est une application developpe par Microsoft pour realise de l'analyse de donnee, cela permet de creer des visualisations de donne personnalise et interactive
