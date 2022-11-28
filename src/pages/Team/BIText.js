@@ -1,8 +1,10 @@
-const Objectif = `L'objectif de l'equipe Business Intelligence et la creation, le support, et l'actualistion pour les dashboards et les reports,
-
-`
+const Objectif = `L'objectif principal de l'equipe Business Intelligence et la creation, le support, et l'actualistion pour les dashboards et les reports tout en faisant une
+maintenance sur le Data Warehouse etant l'entrepot de donnée de PriceWaterHouseCoopers ou toutes les donnees a l'etat brut sont recuperer puis redirige pour que les utilisateurs
+puisset les utilisers sans probleme.`
 
 const Projet = `Lors de mes 3 mois dans l'équipe Business Intelligence j'ai travailler sur different projet :
+
+    - RFC : report for changes
 
     - Migration ORACLE vers SQL Server : Le but de ce projet etait comme son nom l'indique de migrer l'entierete d'application d'Oracle Database vers SQL Server puisque prochainement PwC
     n'utilisera plus Oracle Database pour des raisons de coup de license qui augmente vu que de moins en moins de firme national PriceWaterHouseCoopers l'augmente et que
@@ -14,7 +16,7 @@ const Projet = `Lors de mes 3 mois dans l'équipe Business Intelligence j'ai tra
     - Optimisation Documentum : Le but de ce mini projet était d'optimiser des requetes sql pour faire gagner du temps a ces requetes SQL qui auparavent prenait plusieurs heures
     avec des risques d'erreur lors de l'execution qui forcait a re-executer les requetes et donc faire perdre du temps, grace aux nouvelles requetes realiser sur dqMan puis de
     remplacer les anciennes requetes mis dans un flux SSIS par les nouvelles tout en verifiant bien que ces requetes soit fonctionnelle et qu'elle permettait de recevoir les
-    même résultat dans un temps beaucoup plus court que celui precedamment 
+    même résultat dans un temps beaucoup plus court que celui d'avant.
 
 `
 
@@ -51,6 +53,15 @@ formation Power BI à laquelle j'ai participe. Power BI est une application deve
 grace a une ineterface simple qui permet aux utilisateurs de realiser leur propres rapport ou Dashboard.
 Power Bi permet de recuperer les donnees de differentes maniere et de differents format, par exemple on peut utiliser les donnes de sources SQL ou Excel pour ne citer qu'eux.
 `
-const Apport = ``
+const Apport = `J'ai apporte plusieurs chose dans l'equipe, de l'aide sur les multiples taches qui n'avait personne pour s'en occuper et donc pouvoir m'occuper de tache plus simple
+et moins complique pour que les taches les plus importantes reste dans les mains de mes collegues ayant bien plus d'experience que moi dans leur domaine.
+
+Mes projets ont permis de pouvoir accelerer ou regler des problemes qui etait present comme la lenteur d'execution dans le cas de l'optimisation de documentum, ou le probleme de
+license logiciel qui va bientot disparaitre dans le cas de la migration oracle.
+
+J'ai aussi participer a la resolution de RFC ou de Task qui ont permit de ne pas trop faire attendre les personnes ayant fait les demandes pour les RFC/Task pour que l'equipe ne
+soit pas trop deborde de demande venant de partout leur demandant de resoudre le probleme.
+
+`
 
 export { Objectif, Projet, DiffRen, ConAcq, Apport }

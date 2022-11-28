@@ -1,7 +1,8 @@
 const Objectif = `L'objectif de l'equipe data science et de gere des projets d'Intelligence Artificiel, de Machine Learning et de l'analyse de données a travers des
 visualisations interactive et soutenue par des modeles de donnees statistiques.
 
-Cette equipe a la capacite de supporter votre machine learning ou votre analyse de donne que ce soit en internes ou pour des clients`
+Cette equipe a la capacite de supporter vous et vos projet de machine learning ou d'analyse de donnée que ce soit en internes ou pour des clients grace a des
+algorithme personalise et/ou du Deep Learning.`
 
 const Projet = `Lors de mon travail dans l'equipe DataScience j'ai pu travailler sur de multiples projets tous assez differents les uns des autres
 
@@ -60,12 +61,13 @@ et le travail d'equipe.`
 
 const Apport = `Mon apport est lui pas a sous estiemr, j'ai realiser et participer a 4 projets different tout en faisant des petites taches a coter, le fait que je sois present
 a permis aux autres membres de l'equipe de realiser des taches differentes et surement plus importantes par exemple la migration du framework C# que j'ai du realiser leur permet
-de pouvoir continuer dessus "sans pause" tout en ne s'inquietant pas du fait que d'un moment a l'autre le framework soit obsolète et donc de devoir faire une pause pour regler le probleme.
+de pouvoir continuer a travailler sur le projet "sans pause" tout en ne s'inquietant pas du fait que d'un moment a l'autre le framework soit obsolète et donc de devoir faire une
+pause pour regler le probleme.
 
 De plus mon second projet lui aussi n'est pas a sous estimer, etant du web scrapping, pas toutes l'equipe connaissait et savait comment realiser ce projet tout au plus qu'il fallait
 reussir a trouver comment faire executer ce programme en cloud, heuresement grace a la documentation que j'ai realise en parallele du projet, les futurs membres ou stagiare de l'equipe
 n'auront pas a passer des jours voirs semaines a trouver comment resoudre ce probleme. Puisque le troisieme projet etait sur des bases similaires au second, il y avait la aussi un probleme
-de framework et de compilation en cloud, en effet le probleme de compilation en cloud venait du fait que l'ancienne utilisation du web scrapping se realisait en 4.6 cependant comme je l'ai
+de framework et de compilation en cloud, en effet le probleme de compilation en cloud venait du fait que l'ancienne utilisation du web scrapping se realisait dans la version 4.6 du C# cependant comme je l'ai
 dit precedamment ce framework allait et sera bientot obsolete donc il fallait l'adapter pour le 4.8.1 framework bien plus recent et qui ne risque pas d'être obsolete prochainnement, mais
 dans ce cas l'utilisation original du web scrapping fut modifier et donc ce projet aussi a du etre refait quasiment en entierete pour resoudre ce probleme.`
 
