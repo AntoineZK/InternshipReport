@@ -18,10 +18,12 @@ autant pour gerer les differents environnement de travails que pour optimiser mo
 
 La seule chose sur laquelle je pourrais dire quelque chose de negatif serait sur le manque de flexibilite sur la presence de tele-travail lors des jours de greve.
 
-Touts les projets auxquelles j'ai participer ont cherché/cherche a repondre aux problematique actuelle qui sont liée principalement aux données et j'ai donc pu m'immiscer dans le
-monde de demain.
+Les projets auxquels j'ai participer ont cherché/cherche à repondre aux problematique actuelle liée notamment aux données ce qui a pu me permettre de comprendre mieux les problemes
+de notre monde a l'heure actuelle.
 
-En conclusion j'ai envie de dire que ce stage fut dans sa globalite u
+PriceWaterhouseCoopers cherche constamment a s'innover notamment dans le secteurs des données et dans des secteurs plus generaux
+En conclusion j'ai envie de dire que ce stage fut dans sa globalité fut une bonne experience pour apprendre de multiples choses tout en m'ameliorant sur tous les points que ce soit
+technique ou social
 `
 
 const Conclusion = ({ closeMobileMenu }) => {
