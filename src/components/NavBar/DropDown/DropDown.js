@@ -3,8 +3,8 @@ import './Style.css';
 import { NavLink as Link } from 'react-router-dom';
 
 const MenuItems = [
-    {title: 'DataScience', path: '/InternshipReport/DataScience', cName: 'dropdown-link'},
-    {title: 'BusinessIntelligence', path: '/InternshipReport/BusinessIntelligence', cName: 'dropdown-link'},
+    {title: 'Data Science', path: '/InternshipReport/DataScience', cName: 'dropdown-link'},
+    {title: 'Reporting Dashboarding', path: '/InternshipReport/BusinessIntelligence', cName: 'dropdown-link'},
 ];
 
 function DropDown() {

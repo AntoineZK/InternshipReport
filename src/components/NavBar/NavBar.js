@@ -25,12 +25,17 @@ function NavBar({ handleClick, closeMobileMenu, click}) {
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
                         <Link to='/InternshipReport/Remerciements' className='nav-links' onClick={closeMobileMenu}>
-                            Remerciement
+                            Remerciements
                         </Link>
                     </li>
                     <li className='nav-item'>
                         <Link to='/InternshipReport/Plan' className='nav-links' onClick={closeMobileMenu}>
-                            Plan
+                            Sommaire
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='/InternshipReport/Introduction' className='nav-links' onClick={closeMobileMenu}>
+                            Glossaire
                         </Link>
                     </li>
                     <li className='nav-item'>
@@ -39,13 +44,13 @@ function NavBar({ handleClick, closeMobileMenu, click}) {
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/InternshipReport/Developpement' className='nav-links' onClick={closeMobileMenu}>
-                            Developpement
+                        <Link to='/InternshipReport/Entreprise' className='nav-links' onClick={closeMobileMenu}>
+                            L’Entreprise
                         </Link>
                     </li>
                     <li className='nav-item' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
                         <Link to='/InternshipReport/Teams' className='nav-links' onClick={closeMobileMenu}>
-                            Teams
+                            Les Equipes
                             <i className='fas fa-caret-down' />
                         </Link>
                         {dropdown && <DropDown />}

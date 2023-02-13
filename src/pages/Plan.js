@@ -9,17 +9,17 @@ const TwoLink = [
 ];
 
 const plan = [
-    { name: 'Introduction', link: '/InternshipReport/Introduction' },
-    { name: `L'Entreprise PriceWaterHouseCoopers`, link: '/InternshipReport/Developpement' },
-    { name: 'Contexte', link: '/InternshipReport/Developpement#PwC_Contexte' },
-    { name: 'PwC Global', link: '/InternshipReport/Developpement#PwC_Global' },
-    { name: 'PwC Luxembourg', link: '/InternshipReport/Developpement#PwC_Lux' },
-    { name: 'Departement CDO', link: '/InternshipReport/Developpement#PwC_CDO' },
-    { name: 'Informations et outils', link: '/InternshipReport/Developpement#PwC_IETO' },
-    { name: 'Environnement de travail', link: '/InternshipReport/Developpement#PwC_Env' },
-    { name: 'Equipes', link: '/InternshipReport/Teams' },
-    { name: `L'Equipe DataScience`, link: '/InternshipReport/Teams' },
-    { name: `L'Equipe Business Intelligence`, link: '/InternshipReport/Teams' },
+    { name: 'Glossaire', link: '/InternshipReport/Introduction' },
+    { name: `Introduction`, link: '/InternshipReport/Entreprise' },
+    { name: 'L’Entreprise PricewaterhouseCoopers', link: '/InternshipReport/Entreprise#PwC_Contexte' },
+    { name: 'PwC Global', link: '/InternshipReport/Entreprise#PwC_Global' },
+    { name: 'PwC Luxembourg', link: '/InternshipReport/Entreprise#PwC_Lux' },
+    { name: 'Département Central Data Office', link: '/InternshipReport/Entreprise#PwC_CDO' },
+    { name: 'Informations et outils', link: '/InternshipReport/Entreprise#PwC_IETO' },
+    { name: 'Environnement de travail', link: '/InternshipReport/Entreprise#PwC_Env' },
+    { name: 'Équipes', link: '/InternshipReport/Teams' },
+    { name: `L'Équipe Data Science`, link: '/InternshipReport/Teams' },
+    { name: `L'Équipe Reporting / Dashboarding`, link: '/InternshipReport/Teams' },
     { name: 'Conclusion', link: '/InternshipReport/Teams' },
 ];
 

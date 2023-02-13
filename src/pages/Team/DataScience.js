@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import '../Style.css'
 import { NextPages } from '../../components/Components';
-import { Apport, ConAcq, DiffRen, Objectif, Projet } from './DSText';
+import { Apport, ConAcq, DiffRen, Objectif, Projet, Projet2, Projet3 } from './DSText';
 
 const TwoLink = [
     {style: {color: 'blue'}, link: '/InternshipReport/Teams'},
@@ -16,12 +16,6 @@ const DataScience = ({ closeMobileMenu }) => {
         <div>
             <main>
                 <h1 className='title'>DataScience</h1>
-                {/* <div id='DS_Contexte'>
-                    <h2 className='DS_Text'>Contexte</h2>
-                </div> */}
-                {/* <div id='DS_Prob'>
-                    <h2 className='DS_Text'>Problématique</h2>
-                </div> */}
                 <div id='DS_Objectif'>
                     <h2 className='DS_Text'>Objectif</h2>
                     <p className='paragraph'>{Objectif}</p>
@@ -29,6 +23,8 @@ const DataScience = ({ closeMobileMenu }) => {
                 <div id='DS_Projets'>
                     <h2 className='DS_Text'>Projets</h2>
                     <p className='paragraph'>{Projet}</p>
+                    <p className='paragraph'>{Projet2}</p>
+                    <p className='paragraph'>{Projet3}</p>
                 </div>
                 <div id='DS_DiffRen'>
                     <h2 className='DS_Text'>Difficultés rencontrées</h2>

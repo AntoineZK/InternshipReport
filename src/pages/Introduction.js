@@ -4,25 +4,39 @@ import './Style.css'
 
 const TwoLink = [
     {style: {color: 'blue'}, link: '/InternshipReport/Plan'},
-    {style: {color: 'blue'}, link: '/InternshipReport/Developpement'},
+    {style: {color: 'blue'}, link: '/InternshipReport/Entreprise'},
 ];
 
-const Intro = `Nous sommes actuellement dans une ère où les entreprises accordent de plus en plus d'importance à l'informatique ainsi qu'au digital
-et plus particulièrement à la data, la Big Data, la recuperation, l'analyse et l'utilisation massive de données.
+const Intro = `
+Nous sommes actuellement dans un monde et une ère dans laquelle les
+entreprises accordent de plus en plus d’importance à l’informatique, au digital et
+plus particulièrement à la Big Data, autrement dit la récupération, l’analyse et
+l’utilisation massive de données.
 
-Notre monde d'aujourd'hui est constitue en quasi totalite de donnee, ces memes donnees qui sont considere comme le "pétrole du numerique". Effectivement,
-les donnees sont de plus en plus presente, analyse, sensiblem, volumineuses, ce qui a eu pour impact de completement transformer et revolutionner des 
-organisations et leur prise de decision.
+Notre monde d'aujourd'hui est constitué en presque totalité de données, ces
+mêmes données sont considérées comme le "pétrole du numérique".
 
-Les dirigeants de PricewaterhouseCoopers Luxembourg l'ont compris mieux que personnes et ont digitaliser l'entreprise pour pouvoir resoudre les nouveaux enjeux lie au donnees,
-c'est pour cela qu'ils ont investis en consequent pour que dans le futur toutes les donnees qu'ils recuperents soit analyser et utiliser en internes pour limiter
-la fuite de donnees qui sont de plus en plus sensible.
+Effectivement les données analysées étant de plus en plus présentes, sensibles et
+volumineuses, elles ont eu pour impact de transformer et de révolutionner les
+services dans leurs organisations et leurs prises de décision.
 
-De plus, PricewaterhouseCoopers doit rivaliser avec trois autres entreprises qui forment le Big Four, Ernst&Young, KPMG et Deloitte, ce sont leurs principaux rivaux qui ont des activités et
-réputations similaire.
+Les dirigeants de PricewaterhouseCoopers Luxembourg l’ont compris mieux
+que personne et ont digitalisé l’entreprise pour pouvoir répondre et résoudre les
+nouvelles problématiques liées aux données, c’est pour cela qu’ils ont investi en
+conséquence pour que dans le futur toutes les données que
+PricewaterhouseCoopers récupère soit analysées et utilisées en interne pour
+limiter au maximum les fuites de données.
 
-J'ai donc eu la chance de pouvoir rejoindre l'equipe Data Science puis Business Intelligence du services Data Factory du departement Central Data Office
-de PricewaterhouseCoopers Luxembourg pour découvrir le fonctionnement d'une équipe d'informatique dans une société aussi importante que PricewaterhouseCoopers.`
+De plus, PricewaterhouseCoopers Luxembourg doit rivaliser avec trois autres
+entreprises qui forment le Big Four : Ernst & Young, KPMG et Deloitte, ce sont les
+principaux rivaux étant donné que leurs secteurs d'activité et réputations sont
+similaires.
+
+J’ai donc eu la chance de pouvoir rejoindre l'équipe Data Science puis
+Reporting / Dashboarding du service Data Factory du département Central Data
+Office de PricewaterhouseCoopers pour découvrir le fonctionnement d’une équipe
+d’informatique dans une société aussi importante que PricewaterhouseCoopers.
+`
 
 const Introduction = ({ closeMobileMenu }) => {
     useEffect(() => {

@@ -26,7 +26,7 @@ const Home = ({ closeMobileMenu }) => {
                     <h2>2ème Année Epitech Nancy</h2>
                 </div>
                 <div className='display-image'>
-                    <img src={Tek_Logo} alt="Tek_Logo" width={150} height={150}/>
+                    <img src={Tek_Logo} alt="Tek_Logo" width={300} height={150}/>
                 </div>
                 <div className='internship-location_master'>
                     <h3>Maître de stage : Éric François</h3>

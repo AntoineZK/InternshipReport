@@ -17,12 +17,6 @@ const BusinessIntelligence = ({ closeMobileMenu }) => {
         <div>
             <main>
                 <h1 className='title'>Business Intelligence</h1>
-                {/* <div id='BI_Contexte'>
-                    <h2 className='BI_Text'>Contexte</h2>
-                </div>
-                <div id='BI_Prob'>
-                    <h2 className='BI_Text'>Problématique</h2>
-                </div> */}
                 <div id='BI_Objectif'>
                     <h2 className='BI_Text'>Objectif</h2>
                     <p className='paragraph'>{Objectif}</p>

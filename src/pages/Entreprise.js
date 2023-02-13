@@ -8,7 +8,7 @@ import Piwic from '../assets/piwic.png'
 import Booking from '../assets/booking.png'
 import TimeAndExp from '../assets/timeandex.png'
 import statGrowth from '../assets/statPwCGrowth.png'
-import { EnvWork, EnvWork2, Gbl, InfOut, CDO, CDO2, Lux, Lux2 } from './DevText';
+import { EnvWork, EnvWork2, Gbl, InfOut, CDO, CDO2, Lux, Lux2, Gbl2, InfOut2 } from './DevText';
 import { NextPages } from '../components/Components';
 import { useEffect } from 'react';
 
@@ -17,23 +17,21 @@ const TwoLink = [
     {style: {color: 'blue'}, link: '/InternshipReport/Teams'},
 ];
 
-const Developpement = ({ closeMobileMenu }) => {
+const Entreprise = ({ closeMobileMenu }) => {
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
     return (
         <div>
             <main>
-                <h1 className='title'>Developpement</h1>
-                {/* <div id='PwC_Contexte'>
-                    <h2 className='PwC_Text'>Contexte</h2>
-                </div> */}
+                <h1 className='title'>L’Entreprise PricewaterhouseCoopers</h1>
                 <div id='PwC_Global'>
-                    <h2 className='PwC_Text'>PwC Global</h2>
+                    <h2 className='PwC_Text'>PricewaterhouseCoopers Global</h2>
                     <p className='paragraph'>{Gbl}</p>
+                    <p className='paragraph'>{Gbl2}</p>
                 </div>
                 <div id='PwC_Lux'>
-                    <h2 className='PwC_Text'>PwC Luxembourg</h2>
+                    <h2 className='PwC_Text'>PricewaterhouseCoopers Luxembourg</h2>
                     <p className='paragraph'>{Lux}</p>
                     <div className='pwcHierarchy'>
                         <img src={statGrowth} alt='growth'/>
@@ -41,7 +39,7 @@ const Developpement = ({ closeMobileMenu }) => {
                     <p className='paragraph'>{Lux2}</p>
                 </div>
                 <div id='PwC_CDO'>
-                    <h2 className='PwC_Text'>Le département CDO</h2>
+                    <h2 className='PwC_Text'>Département Central Data Office</h2>
                     <p className='paragraph'>{CDO}</p>
                     <div className='pwcHierarchy'>
                         <img src={hierarchy} alt="hierarchy"/>
@@ -68,6 +66,7 @@ const Developpement = ({ closeMobileMenu }) => {
                         <img className='IETO_IMG' src={Booking} alt="Booking" width={800} height={400}/>
                         <img className='IETO_IMG' src={TimeAndExp} alt="TimeAndExp" width={800} height={400}/>
                     </div>
+                    <p className='paragraph'>{InfOut2}</p>
                 </div>
             </main>
             <NextPages closeMobileMenu={closeMobileMenu} TwoLink={TwoLink} Status={2}/>
@@ -75,4 +74,4 @@ const Developpement = ({ closeMobileMenu }) => {
     );
 };
 
-export default Developpement;
+export default Entreprise;

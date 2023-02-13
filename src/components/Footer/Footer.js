@@ -6,8 +6,8 @@ import './Styles.css'
 const Footer = () => {
     return (
         <div className='bottom_page'>
+            <img src={Tek_Logo} alt="Tek_Logo" width={300} height={150}/>
             <img src={PwC_Logo} alt="PwC_Logo" width={150} height={150}/>
-            <img src={Tek_Logo} alt="Tek_Logo" width={150} height={150}/>
         </div>
     )
 }

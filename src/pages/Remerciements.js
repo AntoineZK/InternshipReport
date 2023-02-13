@@ -7,19 +7,20 @@ const TwoLink = [
     {style: {color: 'blue'}, link: '/InternshipReport/Plan'},
 ];
 
-const manager = 
-`Je tiens à remercier particulièrement mon manager,
-Monsieur Éric FRANÇOIS pour m'avoir permis de réaliser ce stage chez PWC Luxembourg et 
-de s'être rendu disponible durant pour m'avoir prodigué de nombreux conseils tout au long de mon stage.`
+const manager =
+`Je tiens à remercier particulièrement mon manager, Monsieur Éric FRANÇOIS pour
+m'avoir permis de réaliser ce stage chez PricewaterhouseCoopers Luxembourg.`
 
-const teams = 
-`Je tiens à remercier également les équipes DataScience et Business Intelligence
-pour m'avoir transmis leurs connaissances et guidé dans la réalisation de mes tâches
-ainsi que pour leur aide, leur sympathie et pour m'avoir aidé à m'intégrer à l'entreprise.`
+const teams =
+`Je remercie également les équipes Data Science et Reporting / Dashboarding pour
+m'avoir transmis leurs connaissances et guidé dans la réalisation de mes tâches
+ainsi que pour leur aide, leur sympathie et pour m'avoir aidé à m'intégrer à
+l'entreprise.`
 
-const epitech = 
-`Pour finir, j'aimerais remercier EPITECH Nancy et toute l'équipe pédagogique pour la
-qualité de leur enseignement qui a grandement contribué au bon déroulement de mon stage.`
+const epitech =
+`Pour finir, je souhaite remercier EPITECH Nancy et toute l'équipe pédagogique pour
+la qualité de leur enseignement qui a grandement contribué au bon déroulement
+de mon stage.`
 
 const Remerciements = ({ closeMobileMenu }) => {
     useEffect(() => {
