@@ -5,7 +5,7 @@ import { NextPages } from '../components/Components';
 
 const TwoLink = [
     { style: { color: 'blue' }, link: '/InternshipReport/Remerciements' },
-    { style: { color: 'blue' }, link: '/InternshipReport/Introduction' },
+    { style: { color: 'blue' }, link: '/InternshipReport/Glossaire' },
 ];
 
 const plan = [
@@ -34,7 +34,7 @@ const Plan = ({ closeMobileMenu }) => {
                 <ul style={{ textAlign: 'center', marginTop: '7vh' }}>
                     {plan.map((value, index) => (
                         <li style={{ marginBottom: '3vh' }} key={index}>
-                            <Link className='summary_1' to={value.link}>{value.name}</Link>
+                            <Link className='plan' to={value.link}>{value.name}</Link>
                         </li>
                     ))}
                 </ul>

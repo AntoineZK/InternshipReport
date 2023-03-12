@@ -3,7 +3,7 @@ import { NextPages } from '../components/Components';
 import './Style.css'
 
 const TwoLink = [
-    {style: {color: 'blue'}, link: '/InternshipReport/Plan'},
+    {style: {color: 'blue'}, link: '/InternshipReport/Glossaire'},
     {style: {color: 'blue'}, link: '/InternshipReport/Entreprise'},
 ];
 
@@ -46,7 +46,7 @@ const Introduction = ({ closeMobileMenu }) => {
         <div>
             <main>
                 <h1 className='title'>Introduction</h1>
-                <p className='paragraph'>{Intro}</p>
+                <p className='introduction'>{Intro}</p>
             </main>
             <NextPages closeMobileMenu={closeMobileMenu} TwoLink={TwoLink} Status={2}/>
         </div>

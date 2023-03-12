@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { Footer, NavBar } from './components/Components'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Home, Remerciements, Plan, Introduction, Entreprise, Teams, DataScience, BusinessIntelligence, Conclusion } from './pages/Pages'
+import { Home, Remerciements, Plan, Glossaire, Introduction, Entreprise, Teams, DataScience, BusinessIntelligence, Conclusion } from './pages/Pages'
 import EasterEgg from './pages/EasterEgg';
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
 					<Route path='/InternshipReport' element={<Home closeMobileMenu={closeMobileMenu} />} />
 					<Route path='/InternshipReport/Remerciements' element={<Remerciements closeMobileMenu={closeMobileMenu} />} />
 					<Route path='/InternshipReport/Plan' element={<Plan closeMobileMenu={closeMobileMenu} />} />
+					<Route path='/InternshipReport/Glossaire' element={<Glossaire closeMobileMenu={closeMobileMenu} />} />
 					<Route path='/InternshipReport/Introduction' element={<Introduction closeMobileMenu={closeMobileMenu} />} />
 					<Route path='/InternshipReport/Entreprise' element={<Entreprise closeMobileMenu={closeMobileMenu} />} />
 					<Route path='/InternshipReport/Teams' element={<Teams closeMobileMenu={closeMobileMenu} />} />

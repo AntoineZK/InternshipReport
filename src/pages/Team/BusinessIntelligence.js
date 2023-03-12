@@ -19,23 +19,23 @@ const BusinessIntelligence = ({ closeMobileMenu }) => {
                 <h1 className='title'>Business Intelligence</h1>
                 <div id='BI_Objectif'>
                     <h2 className='BI_Text'>Objectif</h2>
-                    <p className='paragraph'>{Objectif}</p>
+                    <p className='businessintelligence'>{Objectif}</p>
                 </div>
                 <div id='BI_Projets'>
                     <h2 className='BI_Text'>Projets</h2>
-                    <p className='paragraph'>{Projet}</p>
+                    <p className='businessintelligence'>{Projet}</p>
                 </div>
                 <div id='BI_DiffRen'>
                     <h2 className='BI_Text'>Difficultés rencontrées</h2>
-                    <p className='paragraph'>{DiffRen}</p>
+                    <p className='businessintelligence'>{DiffRen}</p>
                 </div>
                 <div id='BI_ConnAcquises'>
                     <h2 className='BI_Text'>Connaissances acquises</h2>
-                    <p className='paragraph'>{ConAcq}</p>
+                    <p className='businessintelligence'>{ConAcq}</p>
                 </div>
                 <div id='BI_Apport'>
                     <h2 className='BI_Text'>Mon Apport</h2>
-                    <p className='paragraph'>{Apport}</p>
+                    <p className='businessintelligence'>{Apport}</p>
                 </div>
             </main>
             <NextPages closeMobileMenu={closeMobileMenu} TwoLink={TwoLink} Status={2}/>

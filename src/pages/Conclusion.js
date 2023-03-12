@@ -48,10 +48,29 @@ const Conclusion = ({ closeMobileMenu }) => {
         <div>
             <main>
                 <h1 className='title'>Conclusion</h1>
-                <p className='paragraph'>{Concl}</p>
-                <a href="/internship_report.pdf" download>Téléchargez mon Rapport de Stage</a>
-                <br />
-                <a href="/internship_report.pdf" download>Téléchargez mon Powerpoint sur ma Soutenance de Stage</a>
+                <p className='conclusion'>{Concl}</p>
+                <div className='conclusion-link'>
+                    <a className='report' href="/internship_report.pdf" download>Téléchargez mon Rapport de Stage</a>
+                    <br />
+                    <br />
+                    <a className='ppt' href="/soutenance.pptx" download>Téléchargez mon Powerpoint sur ma Soutenance de Stage</a>
+                </div>
+                <div className='notation'>
+                    <h2 className='title'>Notation</h2>
+
+                    <p className='notation-text'>Le rapport de stage est noté sur 20.</p>
+                    <p className='notation-text'>La soutenance de stage est notée sur 20.</p>
+                    <p className='notation-text'>La note de l'entreprise est notée sur 20.</p>
+                    <p className='notation-text'>La note finale est la moyenne des trois notes précédentes.</p>
+                    <p className='notation-text'>Mes notes sont les suivantes :</p>
+                    <ul>
+                        <li className='notation-value-1'>Rapport de Stage : 17/20</li>
+                        <li className='notation-value-2'>Soutenance de Stage : 13.5/20</li>
+                        <li className='notation-value-3'>Note de l'entreprise : 17.5/20</li>
+                        <li className='notation-value-4'>Note finale : 16/20 | Grade : A</li>
+                    </ul>
+
+                </div>
             </main>
             <NextPages closeMobileMenu={closeMobileMenu} TwoLink={TwoLink} Status={2} />
         </div>

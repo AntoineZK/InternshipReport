@@ -18,25 +18,25 @@ const DataScience = ({ closeMobileMenu }) => {
                 <h1 className='title'>DataScience</h1>
                 <div id='DS_Objectif'>
                     <h2 className='DS_Text'>Objectif</h2>
-                    <p className='paragraph'>{Objectif}</p>
+                    <p className='datascience'>{Objectif}</p>
                 </div>
                 <div id='DS_Projets'>
                     <h2 className='DS_Text'>Projets</h2>
-                    <p className='paragraph'>{Projet}</p>
-                    <p className='paragraph'>{Projet2}</p>
-                    <p className='paragraph'>{Projet3}</p>
+                    <p className='datascience'>{Projet}</p>
+                    <p className='datascience'>{Projet2}</p>
+                    <p className='datascience'>{Projet3}</p>
                 </div>
                 <div id='DS_DiffRen'>
                     <h2 className='DS_Text'>Difficultés rencontrées</h2>
-                    <p className='paragraph'>{DiffRen}</p>
+                    <p className='datascience'>{DiffRen}</p>
                 </div>
                 <div id='DS_ConnAcquises'>
                     <h2 className='DS_Text'>Connaissances acquises</h2>
-                    <p className='paragraph'>{ConAcq}</p>
+                    <p className='datascience'>{ConAcq}</p>
                 </div>
                 <div id='DS_Apport'>
                     <h2 className='DS_Text'>Mon Apports</h2>
-                    <p className='paragraph'>{Apport}</p>
+                    <p className='datascience'>{Apport}</p>
                 </div>
             </main>
             <NextPages closeMobileMenu={closeMobileMenu} TwoLink={TwoLink} Status={2}/>

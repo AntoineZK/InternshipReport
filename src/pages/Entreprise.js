@@ -27,37 +27,37 @@ const Entreprise = ({ closeMobileMenu }) => {
                 <h1 className='title'>L’Entreprise PricewaterhouseCoopers</h1>
                 <div id='PwC_Global'>
                     <h2 className='PwC_Text'>PricewaterhouseCoopers Global</h2>
-                    <p className='paragraph'>{Gbl}</p>
-                    <p className='paragraph'>{Gbl2}</p>
+                    <p className='enterprise'>{Gbl}</p>
+                    <p className='enterprise'>{Gbl2}</p>
                 </div>
                 <div id='PwC_Lux'>
                     <h2 className='PwC_Text'>PricewaterhouseCoopers Luxembourg</h2>
-                    <p className='paragraph'>{Lux}</p>
+                    <p className='enterprise'>{Lux}</p>
                     <div className='pwcHierarchy'>
                         <img src={statGrowth} alt='growth'/>
                     </div>
-                    <p className='paragraph'>{Lux2}</p>
+                    <p className='enterprise'>{Lux2}</p>
                 </div>
                 <div id='PwC_CDO'>
                     <h2 className='PwC_Text'>Département Central Data Office</h2>
-                    <p className='paragraph'>{CDO}</p>
+                    <p className='enterprise'>{CDO}</p>
                     <div className='pwcHierarchy'>
                         <img src={hierarchy} alt="hierarchy"/>
                     </div>
-                    <p className='paragraph'>{CDO2}</p>
+                    <p className='enterprise'>{CDO2}</p>
                 </div>
                 <div id='PwC_Env'>
                     <h2 className='PwC_Text'>Environnement de travail</h2>
-                    <p className='paragraph'>{EnvWork}</p>
+                    <p className='enterprise'>{EnvWork}</p>
                     <div className='pwcCP'>
                         <img className='CP_IMG' src={PwC_CP_Ext} alt="PwC_CP_Ext" width={400} height={400}/>
                         <img className='CP_IMG' src={PwC_CP_Int} alt="PwC_CP_Int" width={400} height={400}/>
                     </div>
-                    <p className='paragraph'>{EnvWork2}</p>
+                    <p className='enterprise'>{EnvWork2}</p>
                 </div>
                 <div id='PwC_IETO'>
                     <h2 className='PwC_Text'>Informations et outils</h2>
-                    <p className='paragraph'>{InfOut}</p>
+                    <p className='enterprise'>{InfOut}</p>
                     <div className='pwcIETO'>
                         <img className='IETO_IMG' src={Piwic} alt="Piwic" width={800} height={400}/>
                         <img className='IETO_IMG' src={Workday} alt="Workday" width={800} height={400}/>
@@ -66,7 +66,7 @@ const Entreprise = ({ closeMobileMenu }) => {
                         <img className='IETO_IMG' src={Booking} alt="Booking" width={800} height={400}/>
                         <img className='IETO_IMG' src={TimeAndExp} alt="TimeAndExp" width={800} height={400}/>
                     </div>
-                    <p className='paragraph'>{InfOut2}</p>
+                    <p className='enterprise'>{InfOut2}</p>
                 </div>
             </main>
             <NextPages closeMobileMenu={closeMobileMenu} TwoLink={TwoLink} Status={2}/>

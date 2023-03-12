@@ -20,15 +20,8 @@
 .internship-location_master {
     display: flex;
     justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.center-link {
-    margin-top: 5%;
-    text-decoration: none;
-    font-size: xx-large;
-    text-align: center;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 .two-link {
@@ -37,11 +30,11 @@
     margin-left: 45%;
     margin-right: 45%;
     margin-bottom: 2%;
-    margin-top: 10vh;
+    margin-top: 7vh;
 }
 
 .thanks-text {
-    margin-top: 10vh;
+    margin-top: 7vh;
     display: flex;
     font-size: 1.2em;
     white-space: pre-wrap;
@@ -49,30 +42,13 @@
     text-align: center;
 }
 
-.display-team {
-    display: none;
-}
-
-.display-team.active {
-    display: auto;
-}
-
-.summary_1 {
+.plan {
     text-decoration: none;
     color: black;
 }
 
-.summary_1:hover {
+.plan:hover {
     color: red;
-}
-
-.fa-arrow-right {
-    margin-right: 5vh;
-}
-
-.summary_2 {
-    text-decoration: none;
-    color: darkgreen;
 }
 
 .BI_Text {
@@ -90,17 +66,13 @@
     text-align: center;
 }
 
-.paragraph {
-    white-space: pre-wrap;
-}
-
 .pwcCP {
     display: flex;
     justify-content: space-between;
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 2%;
-    margin-top: 10vh;
+    margin-top: 7vh;
 }
 
 .CP_IMG {
@@ -110,14 +82,14 @@
 .pwcIETO {
     display: flex;
     justify-content: space-between;
-    margin-left: 10%;
+    margin-left: 7%;
     margin-right: 15%;
     margin-bottom: 2%;
-    margin-top: 10vh;
+    margin-top: 7vh;
 }
 
 .IETO_IMG {
-    border-radius: 10%;
+    border-radius: 7%;
 }
 
 .pwcHierarchy {
@@ -137,7 +109,6 @@
     font-size: large;
 }
 
-
 .hours {
     align-items: center;
     display: flex;
@@ -146,7 +117,6 @@
     color: red;
     font-size: large;
 }
-
 
 .minutes {
     align-items: center;
@@ -157,7 +127,6 @@
     font-size: large;
 }
 
-
 .seconds {
     align-items: center;
     display: flex;
@@ -165,4 +134,133 @@
     margin: 8vh;
     color: brown;
     font-size: large;
+}
+
+.glossaire {
+    margin-top: 15vh;
+    text-align: center;
+}
+
+.glossaire-title {
+    margin-top: 7vh;
+    text-align: center;
+}
+
+.glossaire-text {
+    margin-top: 5vh;
+    display: flex;
+    font-size: 1.2em;
+    white-space: pre-wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.introduction {
+    margin-top: 7vh;
+    text-align: center;
+    white-space: pre-wrap;
+    font-size: 1.2em;
+}
+
+.enterprise {
+    margin-top: 7vh;
+    text-align: center;
+    white-space: pre-wrap;
+    font-size: 1.2em;
+}
+
+.datascience {
+    margin-top: 7vh;
+    text-align: center;
+    white-space: pre-wrap;
+    font-size: 1.2em;
+}
+
+.businessintelligence {
+    margin-top: 7vh;
+    text-align: center;
+    white-space: pre-wrap;
+    font-size: 1.2em;
+}
+
+.conclusion {
+    margin-top: 7vh;
+    text-align: center;
+    white-space: pre-wrap;
+    font-size: 1.2em;
+}
+
+.conclusion-link {
+    margin-top: 7vh;
+    text-align: center;
+    white-space: pre-wrap;
+    font-size: 1.2em;
+}
+
+.report {
+    text-decoration: none;
+    color: red;
+    font-size: 1.2em;
+}
+
+.ppt {
+    text-decoration: none;
+    color: green;
+    font-size: 1.2em;
+}
+
+.notation {
+    margin-top: 7vh;
+    text-align: center;
+    white-space: pre-wrap;
+    font-size: 1.2em;
+}
+
+.notation-text {
+    margin-top: 5vh;
+    display: flex;
+    font-size: 1.2em;
+    white-space: pre-wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.notation-value-1 {
+    margin-top: 5vh;
+    display: flex;
+    font-size: 1.2em;
+    white-space: pre-wrap;
+    justify-content: center;
+    text-align: center;
+    color: red;
+}
+
+.notation-value-2 {
+    margin-top: 5vh;
+    display: flex;
+    font-size: 1.2em;
+    white-space: pre-wrap;
+    justify-content: center;
+    text-align: center;
+    color: orange;
+}
+
+.notation-value-3 {
+    margin-top: 5vh;
+    display: flex;
+    font-size: 1.2em;
+    white-space: pre-wrap;
+    justify-content: center;
+    text-align: center;
+    color: green;
+}
+
+.notation-value-4 {
+    margin-top: 5vh;
+    display: flex;
+    font-size: 1.2em;
+    white-space: pre-wrap;
+    justify-content: center;
+    text-align: center;
+    color: blue;
 }
