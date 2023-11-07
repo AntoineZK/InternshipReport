@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react'
 import { NextPages } from '../components/Components';
+import Report from '../assets/internship_report.pdf'
+import Ppt from '../assets/soutenance.pptx'
 import './Style.css'
 
 const TwoLink = [
@@ -50,10 +52,10 @@ const Conclusion = ({ closeMobileMenu }) => {
                 <h1 className='title'>Conclusion</h1>
                 <p className='conclusion'>{Concl}</p>
                 <div className='conclusion-link'>
-                    <a className='report' href="/internship_report.pdf" download>Téléchargez mon Rapport de Stage</a>
+                    <a className='report' href={Report} download>Téléchargez mon Rapport de Stage</a>
                     <br />
                     <br />
-                    <a className='ppt' href="/soutenance.pptx" download>Téléchargez mon Powerpoint sur ma Soutenance de Stage</a>
+                    <a className='ppt' href={Ppt} download>Téléchargez mon Powerpoint sur ma Soutenance de Stage</a>
                 </div>
                 <div className='notation'>
                     <h2 className='title'>Notation</h2>
@@ -74,7 +76,7 @@ const Conclusion = ({ closeMobileMenu }) => {
             </main>
             <NextPages closeMobileMenu={closeMobileMenu} TwoLink={TwoLink} Status={2} />
         </div>
-    );
+    );q
 }
 
 export default Conclusion
