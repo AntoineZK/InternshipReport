@@ -76,7 +76,7 @@ const Conclusion = ({ closeMobileMenu }) => {
             </main>
             <NextPages closeMobileMenu={closeMobileMenu} TwoLink={TwoLink} Status={2} />
         </div>
-    );q
+    );
 }
 
 export default Conclusion
